@@ -1,0 +1,138 @@
+html {
+  font-family: Arial;
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+}
+
+header > h1 {
+  margin: 0;
+  font-size: 6vh;
+  padding: 44vh 0 50vh 0;
+}
+
+footer {
+  padding-left: 200px;
+  text-align: center;
+}
+
+nav {
+  background-color: #eee;
+  position: fixed;
+  padding: 10px 20px;
+  width: 200px;
+  height: 100%;
+}
+
+nav a:link, nav a:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+li > a {
+  display: block;
+  height: 4rem;
+  line-height: 2rem;
+  padding: 1rem;
+}
+
+main {
+  margin-left: 200px;
+  background-color: #e0e0e0;
+}
+
+main > div {
+  padding-bottom: 2rem;
+  background-color: gray;
+}
+
+.hide {
+  display: none;
+}
+
+.projects-nav {
+  background-color: #d2d2d2;
+}
+
+.creations-nav {
+  background-color: #d4d4d4;
+}
+
+.experiences-nav {
+  background-color: #d6d6d6;
+}
+
+.contact-info-nav {
+  background-color: #d8d8d8;
+}
+
+.image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#li {
+  background-color: #eee;
+  /* background-image: url("../Cartoon/li-avatar.png"); */
+  height: 500px;
+}
+
+#emil {
+  background-color: #eee;
+  /* background-image: url("../Cartoon/emil-avatar_square_white.png"); */
+  height: 500px;
+}
+
+#kuma {
+  background-color: #eee;
+  /* background-image: url("../Kuma/RilakkumaKorilakkuma.gif"); */
+  height: 500px;
+}
+
+#ripple {
+  background-color: #e0e0e0;
+  background-color: #eee;
+  /* background-image: url("../Studio\ Ripple/StudioRipple2.0\ copy.png"); */
+  height: 500px;
+}
+
+#experience-1 {
+  background-color: pink;
+  height: 500px;
+}
+
+#contact-info-row-1 {
+  background-color: greenyellow;
+  height: 500px;
+}
