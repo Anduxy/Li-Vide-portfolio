@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
-  <nav class="hide" data-aos="fade-in" data-aos-delay="400" data-aos-duration="2000">
+  <nav class="hide d-none d-lg-block" data-aos="fade-in" data-aos-delay="400" data-aos-duration="2000">
     <ol>
       <li>
         <a class="projects-nav" href="#projects">Projects</a>
@@ -31,7 +31,7 @@
     </ol>
   </nav>
   <header>
-    <h1>Hello world!</h1>
+    <h1>Scroll down, silly!</h1>
   </header>
   <main>
     <div id="projects" class="container">
@@ -39,9 +39,57 @@
         <h2 class="col">Projects</h2>
       </div>
       <div class="row">
-        <div id="ripple" class="col image" data-aos="fade-up">
-          Studio Ripple
+          <div id="fatta" class="col image toggle-collapse" data-aos="fade-up">
+          </div>
+      </div>
+      <div class="collapse-hide row" id="collapse-fatta">
+          <div class="col">
+            <p>FATTA! Social media campaign for a challenge to raise awareness regarding consent.</p>
+            [Picture of shoes.ai, the foot challenge]<br/>
+            [Screenshot of video campaign]
+          </div>
+      </div>
+      <div class="row">
+        <div id="canyoudrinkthewater" class="col image toggle-collapse" data-aos="fade-up">
+          <p>Can you drink the water – Concept & development</p>
         </div>
+      </div>
+      <div class="collapse-hide row" id="collapse-canyoudrinkthewater">
+          <div class="col">
+              <p><a href="https://canyoudrinkthewater.com/" target="_blank">canyoudrinkthewater.com</a></p>
+              <p>Website coded in HTML, CSS and JavaScript. Using API:s from UN and GoogleMaps.<br/>
+                A service to find out whether the water is drinkable or not in a specific country.<br/>
+                Either type your destination or use your location.</p>
+              [screenshot of home page]<br/>
+              [screenshot of the result]
+          </div>
+      </div>
+      <div class="row">
+        <div id="hope" class="col image toggle-collapse" data-aos="fade-up">
+        </div>
+      </div>
+      <div class="collapse-hide row" id="collapse-hope">
+          <div class="col">
+              <p>HOPE Concept + mock-up</p>
+              <p>Launching an app with focus on the subscription service.</p>
+              
+              [Illustrations from the presentation]<br/>
+              [Picture of the customer journey]<br/>
+              [Video of the wireframe app]
+          </div>
+      </div>
+      <div class="row">
+        <div id="ripple" class="col image toggle-collapse" data-aos="fade-up">
+        </div>
+      </div>
+      <div class="collapse-hide row" id="collapse-ripple">
+          <div class="col">
+              <p>Studio Ripple Concept + development + final</p>
+              <p>
+                Creating a brand identity and the visual design<br />
+                [logo][fonts][color palette]
+              </p>
+          </div>
       </div>
     </div>
     <div id="creations" class="container">
@@ -49,15 +97,15 @@
         <h2 class="col">Creations</h2>
       </div>
       <div class="row">
-        <div id="emil" class="col-6 image" data-aos="fade-right">
+        <div id="emil" class="col-md-6 image" data-aos="flip-left">
           Boy with border collie
         </div>
-        <div id="li" class="col-6 image" data-aos="fade-left">
+        <div id="li" class="col-md-6 image" data-aos="flip-right">
           Self portrait
         </div>
       </div>
       <div class="row">
-        <div id="kuma" class="col image">
+        <div id="kuma" class="col image" data-aos="fade-right">
           Rilak & Korila Kuma
         </div>
       </div>
@@ -66,7 +114,7 @@
       <div class="row">
         <h2 class="col">Experiences</h2>
       </div>
-      <div id="experience-1" class="row image">
+      <div id="experience-1" class="row image" data-aos="zoom-in-right">
         <div class="col">
           Experiences
         </div>
@@ -76,9 +124,12 @@
       <div class="row">
         <h2 class="col">Contact info</h2>
       </div>
-      <div id="contact-info-row-1" class="row image">
+      <div id="contact-info-row-1" class="row image" data-aos="zoom-in-right">
         <div class="col">
-          Contact info
+          LinkedIn
+          Instagram
+          Facebook
+          E-mail
         </div>
       </div>
     </div>
