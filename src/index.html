@@ -7,9 +7,15 @@
   <meta name="author" content="Emil Wall">
   <link rel="stylesheet" href="styles.css?v=1.0">
 
-  <!-- Grid: Twitter bootstrap -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.css" />
-  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+
   <!-- Animations: http://michalsnik.github.io/aos/ -->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
@@ -32,14 +38,18 @@
   </nav>
   <header>
     <h1>Scroll down, silly!</h1>
+    <!--<div class="space-circle parallax"></div>-->
   </header>
   <main>
     <div id="projects" class="container">
       <div class="row">
         <h2 class="col">Projects</h2>
       </div>
-      <div class="row">
-          <div id="fatta" class="col image toggle-collapse" data-aos="fade-up">
+      <div class="row view overlay">
+          <div class="fatta col image" data-aos="fade-up">
+          </div>
+          <div id="fatta" class="toggle-collapse mask flex-center rgba-pink-light">
+            <!--<p class="white-text">Light overlay</p>-->
           </div>
       </div>
       <div class="collapse-hide row" id="collapse-fatta">
@@ -49,12 +59,15 @@
             [Screenshot of video campaign]
           </div>
       </div>
-      <div class="row">
-        <div id="canyoudrinkthewater" class="col image toggle-collapse" data-aos="fade-up">
+      <div class="row view overlay">
+        <div class="col canyoudrinkthewater img-fluid image " data-aos="fade-up">
           <p>Can you drink the water – Concept & development</p>
         </div>
+        <div id="canyoudrinkthewater" class="toggle-collapse mask flex-center rgba-pink-light">
+          <!--<p class="white-text">Light overlay</p>-->
+        </div>
       </div>
-      <div class="collapse-hide row" id="collapse-canyoudrinkthewater">
+      <div class="collapse-canyoudrinkthewater collapse-hide row" id="collapse-canyoudrinkthewater">
           <div class="col">
               <p><a href="https://canyoudrinkthewater.com/" target="_blank">canyoudrinkthewater.com</a></p>
               <p>Website coded in HTML, CSS and JavaScript. Using API:s from UN and GoogleMaps.<br/>
@@ -64,8 +77,11 @@
               [screenshot of the result]
           </div>
       </div>
-      <div class="row">
-        <div id="hope" class="col image toggle-collapse" data-aos="fade-up">
+      <div class="row view overlay">
+        <div class="hope col image" data-aos="fade-up">
+        </div>
+        <div id="hope" class="toggle-collapse mask flex-center rgba-pink-light">
+          <!--<p class="white-text">Light overlay</p>-->
         </div>
       </div>
       <div class="collapse-hide row" id="collapse-hope">
@@ -78,8 +94,11 @@
               [Video of the wireframe app]
           </div>
       </div>
-      <div class="row">
-        <div id="ripple" class="col image toggle-collapse" data-aos="fade-up">
+      <div class="row view overlay">
+        <div class="ripple col image" data-aos="fade-up">
+        </div>
+        <div id="ripple" class="toggle-collapse mask flex-center rgba-pink-light">
+          <!--<p class="white-text">Light overlay</p>-->
         </div>
       </div>
       <div class="collapse-hide row" id="collapse-ripple">

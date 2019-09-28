@@ -1,5 +1,10 @@
-html {
+html, body {
+  margin: 0;
+  padding: 0;
   font-family: Arial;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -9,19 +14,17 @@ html {
   }
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   text-align: center;
 }
 
 header > h1 {
-  margin: 0;
   font-size: 6vh;
-  padding: 44vh 0 50vh 0;
+  color: black;
+  padding: 44vh 0 50vh;
+  left: 30vw;
+  height: 100vh;
+  text-shadow: 2px 1px 2px white;
 }
 
 nav {
@@ -136,30 +139,30 @@ main > div {
   transition: max-height .5s ease-in-out;
 }
 
-#fatta {
+.fatta {
   color: white;
   background-color: black;
   background-image: url("../img/fatta.png");
   height: 212px;
 }
 
-#canyoudrinkthewater {
+.canyoudrinkthewater {
   background-color: lightblue;
   /* background-image: url("../img/canidrinkthewater.png"); */
   /* height: 220px; */
 }
 
-#collapse-canyoudrinkthewater {
+.collapse-canyoudrinkthewater {
   background-color: lightskyblue;
   /* background-image: url("../img/canidrinkthewater.png"); */
 }
 
-#hope {
+.hope {
   background-image: url("../img/hope.jpg");
   height: 320px;
 }
 
-#ripple {
+.ripple {
   background-color: #e0e0e0;
   background-image: url("../Studio\ Ripple/StudioRipple2.0\ copy.png");
   height: 500px;
