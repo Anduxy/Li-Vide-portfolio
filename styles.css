@@ -120,7 +120,7 @@ li {
 .fatta {
   color: white;
   background-color: black;
-  background-image: url("../img/fatta.png");
+  background-image: url("img/fatta.png");
   height: 212px;
 }
 
@@ -135,12 +135,12 @@ li {
 }
 
 .hope {
-  background-image: url("../img/hope.jpg");
+  background-image: url("img/hope.jpg");
   height: 320px;
 }
 
 .ripple {
-  background-image: url("../Studio\ Ripple/StudioRipple2.0\ copy.png");
+  background-image: url("Studio\ Ripple/StudioRipple2.0\ copy.png");
   height: 500px;
 }
 
@@ -149,17 +149,17 @@ li {
 }
 
 #li {
-  background-image: url("../Cartoon/li-avatar.png");
+  background-image: url("Cartoon/li-avatar.png");
   height: 500px;
 }
 
 #emil {
-  background-image: url("../Cartoon/emil-avatar_square_white.png");
+  background-image: url("Cartoon/emil-avatar_square_white.png");
   height: 500px;
 }
 
 #kuma {
-  background-image: url("../Kuma/RilakkumaKorilakkuma.gif");
+  background-image: url("Kuma/RilakkumaKorilakkuma.gif");
   height: 500px;
 }
 
