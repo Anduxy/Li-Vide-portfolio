@@ -16,6 +16,7 @@ html {
 
 html body {
   font-size: 2vw;
+  font-family: Josefin Sans;
 }
 
 header {
@@ -23,7 +24,7 @@ header {
 }
 
 header > h1 {
-  font-size: 6vh;
+  font-size: 3em;
   color: black;
   padding: 44vh 0 50vh;
   left: 30vw;
@@ -31,33 +32,47 @@ header > h1 {
   text-shadow: 2px 1px 2px white;
 }
 
-h2 {
-  font-size: 2em;
+main h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 1rem;
 }
 
 p {
-  font-size: 1.4em;
+  font-size: 18px;
+}
+
+nav {
+  text-align: center;
+  font-size: 1.1rem;
+  pointer-events: none;
+}
+
+nav a {
+  padding: 0.7rem;
+  pointer-events: all;
+}
+
+nav a span {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, pink 50%);
+  padding: 0 4px;
+}
+
+nav a:hover span {
+  background: pink;
+  transition: none;
 }
 
 @media only screen and (min-width: 992px)  {
-  nav {
-    /* background-image: url("../Line\ Work/liprofilecircle_2squarepink.png"); */
-    background-color: #eee;
-    position: fixed;
-    padding: 10px 20px;
-    width: 14vw;
-    height: 100%;
+  nav.fixed-bottom {
+    top: 0;
+    bottom: auto;
+    font-size: 1.2rem;
   }
 }
 
 nav a:link, nav a:visited {
   color: inherit;
-}
-
-@media only screen and (min-width: 992px)  {
-  nav a:link, nav a:visited {
-    text-decoration: inherit;
-  }
 }
 
 ul, ol {
@@ -66,79 +81,14 @@ ul, ol {
   display: inline;
 }
 
-@media only screen and (min-width: 992px)  {
-  ul, ol {
-    display: block;
-  }
-}
-
 li {
   cursor: pointer;
   display: inline;
-  padding: 0 1em;
-}
-
-@media only screen and (min-width: 992px)  {
-  li {
-    margin-bottom: 10px;
-    padding: 0;
-    display: block;
-  }
-}
-
-@media only screen and (min-width: 992px)  {
-  li > a {
-    display: block;
-    height: 4rem;
-    line-height: 2rem;
-    padding: 1rem;
-  }
-}
-
-/* main {
-  background-color: #e0e0e0;
-} */
-
-@media only screen and (min-width: 992px)  {
-  main {
-    margin-left: 14vw;
-  }
-}
-
-footer {
-  text-align: center;
-  font-size: 1.8em;
-}
-
-footer a {
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, pink 50%);
-}
-
-footer a:hover {
-  background: pink;
-  transition: none;
+  padding: 0;
 }
 
 .hide {
   visibility: hidden;
-}
-
-@media only screen and (min-width: 992px)  {
-  .work-nav {
-    background-color: #d2d2d2;
-  }
-
-  .play-nav {
-    background-color: #d4d4d4;
-  }
-
-  .about-nav {
-    background-color: #d6d6d6;
-  }
-
-  .contact-nav {
-    background-color: #d8d8d8;
-  }
 }
 
 .image {
@@ -148,20 +98,8 @@ footer a:hover {
   padding: 1rem;
 }
 
-.parallax {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .toggle-collapse {
   cursor: pointer;
-  opacity: 0.5;
-}
-
-.toggle-collapse:hover {
-  opacity: 1;
 }
 
 .collapse-hide {
@@ -188,13 +126,12 @@ footer a:hover {
 
 .canyoudrinkthewater {
   background-color: lightblue;
-  /* background-image: url("../img/canidrinkthewater.png"); */
+  /* background-image: url("../img/canyoudrinkthewater.png"); */
   /* height: 220px; */
 }
 
 .collapse-canyoudrinkthewater {
   background-color: lightskyblue;
-  /* background-image: url("../img/canidrinkthewater.png"); */
 }
 
 .hope {
@@ -203,12 +140,11 @@ footer a:hover {
 }
 
 .ripple {
-  /* background-color: #e0e0e0; */
   background-image: url("../Studio\ Ripple/StudioRipple2.0\ copy.png");
   height: 500px;
 }
 
-#collapse-ripple {
+.collapse-ripple {
   background-color: #e0e0e0;
 }
 
