@@ -136,14 +136,24 @@ li {
   padding: 0 1rem;
   max-height: 0;
   overflow: hidden;
-  transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+}
+
+@media only screen and (min-width: 992px)  {
+  .collapse-hide {
+    transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+  }
 }
 
 .collapse-show {
   background-color: pink;
   padding: 0 1rem 1rem;
   max-height: 99em;
-  transition: max-height .5s ease-in-out;
+}
+
+@media only screen and (min-width: 992px)  {
+  .collapse-show {
+    transition: max-height .5s ease-in-out;
+  }
 }
 
 .fatta {
@@ -193,5 +203,11 @@ li {
 }
 
 .contact-1 {
-  padding-bottom: 4vw;
+  padding-bottom: 12.5vw;
+}
+
+@media only screen and (min-width: 992px)  {
+  .contact-1 {
+    padding-bottom: 4vw;
+  }
 }
