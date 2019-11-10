@@ -44,6 +44,20 @@ main h2 {
   }
 }
 
+main h3 {
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 992px)  {
+  main h3 {
+    font-size: 1.6em;
+  }
+}
+
 main .container {
   max-width: 100%;
 }
@@ -147,7 +161,6 @@ li {
 .collapse-show {
   background-color: pink;
   padding: 0 1rem 1rem;
-  max-height: 99em;
 }
 
 @media only screen and (min-width: 992px)  {
@@ -156,50 +169,68 @@ li {
   }
 }
 
-.fatta {
-  color: white;
-  background-color: black;
-  background-image: url("img/fatta.png");
-  height: 212px;
+.ripple {
+  background-image: url("img/Work/studio_ripple_message_960x640.jpg");
+  height: 640px;
 }
 
-.canyoudrinkthewater {
-  background-color: lightblue;
-  /* background-image: url("../img/canyoudrinkthewater.png"); */
-  /* height: 220px; */
+.ripple-2 {
+  background-image: url("img/Work/studio_ripple_logos_960x640.jpg");
+  height: 640px;
 }
 
-.collapse-canyoudrinkthewater {
-  background-color: lightskyblue;
+.ripple-3 {
+  background-image: url("img/Work/studio_ripple_colors_960x640.jpg");
+  height: 640px;
+}
+
+.ripple-4 {
+  background-image: url("img/Work/studio_ripple_font_960x640.jpg");
+  height: 640px;
+}
+
+.ripple-5 {
+  background-image: url("img/Work/studio_ripple_logos2_960x640.jpg");
+  height: 640px;
+}
+
+.allin {
+  background-image: url("img/Work/Allin_stages_960x640.jpg");
+  height: 640px;
+}
+
+.allin-2 {
+  background-image: url("img/Work/Allin_key_960x640.jpg");
+  height: 640px;
+}
+
+.allin-3 {
+  background-image: url("img/Work/Allin_timeline_phases_960x640.jpg");
+  height: 640px;
+}
+
+.allin-4 {
+  background-image: url("img/Work/Allin_Appreciation_960x640.jpg");
+  height: 640px;
 }
 
 .hope {
-  background-image: url("img/hope.jpg");
-  height: 320px;
+  background-image: url("img/Work/Hope_futureretail_960x640.jpg");
+  height: 640px;
 }
 
-.ripple {
-  background-image: url("Studio\ Ripple/StudioRipple2.0\ copy.png");
-  height: 500px;
+.hope-2 {
+  background-image: url("img/Work/Hope_Strategy_960x640.jpg");
+  height: 640px;
 }
 
-.collapse-ripple {
+.hope-3 {
+  background-image: url("img/Work/Hope_UserJourney_960x640.jpg");
+  height: 640px;
+}
+
+.collapse-ripple, .collapse-allin {
   background-color: #e0e0e0;
-}
-
-#li {
-  background-image: url("Cartoon/li-avatar.png");
-  height: 500px;
-}
-
-#emil {
-  background-image: url("Cartoon/emil-avatar_square_white.png");
-  height: 500px;
-}
-
-#kuma {
-  background-image: url("Kuma/RilakkumaKorilakkuma.gif");
-  height: 500px;
 }
 
 .contact-1 {
