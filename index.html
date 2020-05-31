@@ -71,8 +71,12 @@
       <div class="row">
         <h3 class="col">All In Foundation</h3>
       </div>
-      <div class="row view overlay">
-        <div class="allin col image" data-aos="fade-up">
+      <div id="allin-container" class="row view overlay">
+        <div class="allin col image"
+          data-aos="fade-up"
+          data-bottom-top="background-position: 50% 200px;"
+          data-top-bottom="background-position: 50% -200px;"
+          data-anchor-target="#allin-container">
         </div>
         <div id="allin" class="toggle-collapse mask flex-center rgba-white-strong">
         </div>
@@ -161,7 +165,9 @@
       </div>
     </div>
   </main>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="scripts.js"></script>
+  <div id="skrollr-body"></div>
+  <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+  <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>

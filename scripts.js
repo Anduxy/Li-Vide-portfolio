@@ -1,5 +1,6 @@
 // Animate on scroll (fade, flip, etc.)
 AOS.init();
+var s = skrollr.init();
 
 // Show nav when not at top of page
 var nav = document.getElementsByTagName("nav")[0];
