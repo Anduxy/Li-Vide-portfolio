@@ -55,6 +55,18 @@ main h2 {
   margin-top: 1rem;
 }
 
+main h3 {
+  font-size: 1.4vw;
+  font-weight: 300;
+  margin: 0;
+  background-color: rgb(244, 204, 204);
+  display: inline;
+}
+
+main p {
+  font-size: 1.4vw;
+}
+
 @media only screen and (min-width: 992px)  {
   main h2 {
     font-size: 2em;
@@ -122,26 +134,51 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   cursor: pointer;
 }
 
-.ripple-teaser {
-  background-image: url("img/Work/studio_ripple_message_960x640.jpg");
-  height: 640px;
-}
-
-.ripple header {
-  text-align: right;
-  padding-right: 20px;
-}
-
-.ripple header > h1 {
-  height: 50vh;
-  padding: 44vh 0 0;
-}
-
 .triangular {
   width: 0;
   height: 0;
   border-bottom: 100px solid white;
   border-left: 100vw solid transparent;
+}
+
+.ripple-teaser {
+  background-image: url("img/Work/studio_ripple_message_960x640.jpg");
+  height: 640px;
+}
+
+.ripple-description {
+  background-color: rgb(243, 243, 243);
+  position: absolute;
+  top: 50vw;
+  left: 10vw;
+  right: 45vw;
+  padding: 2vw;
+}
+
+.ripple-description p {
+  margin-left: 10vw;
+}
+
+.ripple-img1 {
+  background-image: url("img/ripple/Studio_Ripple_logo-01.png");
+  position: absolute;
+  top: 50vw;
+  left: 44vw;
+  padding: 22vw;
+}
+
+.ripple header {
+  text-align: right;
+  padding-right: 5vw;
+}
+
+.ripple header > h1 {
+  height: 25vw;
+  padding: 20vw 0 0;
+}
+
+.ripple main {
+  margin-bottom: 10vh;
 }
 
 .allin-teaser {
