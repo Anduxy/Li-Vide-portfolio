@@ -39,7 +39,7 @@ header > h1 {
 
 .scroll-please > em {
   font-style: normal;
-  font-size: 1.8em;
+  font-size: 2.2em;
 }
 
 .scroll-please > .vertical-line {
@@ -102,8 +102,8 @@ nav {
 nav a {
   position: absolute;
   top: 50px;
-  font-size: 1.8em;
-  font-weight: bold;
+  font-size: 2.2em;
+  font-weight: 300;
 }
 
 a.about-nav {
@@ -179,7 +179,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   background-image: url("img/ripple/studio_ripple_colors_960x640-02.jpg");
   position: absolute;
   top: 300vw;
-  left: 15vw;
+  left: 12vw;
   padding: 22vw;
 }
 
