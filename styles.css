@@ -122,17 +122,34 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   cursor: pointer;
 }
 
-.ripple {
+.ripple-teaser {
   background-image: url("img/Work/studio_ripple_message_960x640.jpg");
   height: 640px;
 }
 
-.allin {
+.ripple header {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.ripple header > h1 {
+  height: 50vh;
+  padding: 44vh 0 0;
+}
+
+.triangular {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid white;
+  border-left: 100vw solid transparent;
+}
+
+.allin-teaser {
   background-image: url("img/Work/Allin_stages_960x640.jpg");
   height: 640px;
 }
 
-.hope {
+.hope-teaser {
   background-image: url("img/Work/Hope_futureretail_960x640.jpg");
   height: 640px;
 }
