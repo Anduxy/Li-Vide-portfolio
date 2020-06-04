@@ -90,8 +90,9 @@ a.about-nav {
   right: 100px;
 }
 
-a.close-nav {
-  font-size: 5em;
+a.close-nav svg {
+  height: 5vw;
+  fill: white;
 }
 
 nav a:hover {
