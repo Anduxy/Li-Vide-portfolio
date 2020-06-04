@@ -56,7 +56,7 @@ main h2 {
 }
 
 main h3 {
-  font-size: 1.4vw;
+  font-size: 2em;
   font-weight: 300;
   margin: 0;
   background-color: rgb(244, 204, 204);
@@ -64,12 +64,20 @@ main h3 {
 }
 
 main p {
-  font-size: 1.4vw;
+  font-size: 2em;
 }
 
 @media only screen and (min-width: 992px)  {
   main h2 {
     font-size: 2em;
+  }
+
+  main h3 {
+    font-size: 1.4vw;
+  }
+
+  main p {
+    font-size: 1.4vw;
   }
 }
 
@@ -167,6 +175,49 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   padding: 22vw;
 }
 
+.ripple-img2 {
+  background-image: url("img/ripple/studio_ripple_colors_960x640-02.jpg");
+  position: absolute;
+  top: 300vw;
+  left: 15vw;
+  padding: 22vw;
+}
+
+.ripple-img3 {
+  background-image: url("img/ripple/studio_ripple_font.png");
+  position: absolute;
+  top: 200vw;
+  left: 50vw;
+  padding: 22vw;
+}
+
+.ripple-img4 {
+  background-image: url("img/ripple/studio_ripple_logos_960x640-04.jpg");
+  position: absolute;
+  top: 240vw;
+  left: 5vw;
+  padding: 45vw;
+}
+
+
+@media only screen and (min-width: 992px)  {
+  .ripple-img1 {
+    top: 50vw;
+  }
+
+  .ripple-img2 {
+    top: 120vw;
+  }
+
+  .ripple-img3 {
+    top: 148vw;
+  }
+
+  .ripple-img4 {
+    top: 165vw;
+  }
+}
+
 .ripple header {
   text-align: right;
   padding-right: 5vw;
@@ -175,10 +226,6 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 .ripple header > h1 {
   height: 25vw;
   padding: 20vw 0 0;
-}
-
-.ripple main {
-  margin-bottom: 10vh;
 }
 
 .allin-teaser {
