@@ -90,20 +90,6 @@ section {
   position: relative;
 }
 
-@media only screen and (min-width: 768px)  {
-  main h2 {
-    font-size: 2em;
-  }
-
-  main h3 {
-    font-size: 1.4em;
-  }
-
-  main p {
-    font-size: 1.4em;
-  }
-}
-
 nav {
   text-align: center;
 }
@@ -231,12 +217,25 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   margin-bottom: 4em;
 }
 
-@media only screen and (min-width: 768px)  {
+@media only screen and (min-width: 768px) {
+  main h2 {
+    font-size: 2em;
+  }
+
+  main h3 {
+    font-size: 1.4em;
+  }
+
+  main p {
+    font-size: 1.4em;
+  }
+
   .description {
     width: 44em;
     top: 12em;
-    left: 4em;
+    left: 50%;
     padding: 2em;
+    transform: translateX(-34.5em);
   }
 
   #ripple-section1 {
