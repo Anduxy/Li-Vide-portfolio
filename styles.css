@@ -170,6 +170,10 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   height: 124em;
 }
 
+#allin-section1 {
+  height: 146em;
+}
+
 #ripple-img1 {
   background-image: url("img/ripple/Studio_Ripple_logo-01.png");
   position: absolute;
@@ -217,6 +221,42 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   margin-bottom: 4em;
 }
 
+#allin-img2 {
+  background-image: url("img/allin/Allin_timeline_phases_960x640-02.jpg");
+  position: absolute;
+  top: 0;
+  left: 1em;
+  right: 1em;
+  height: 28em;
+}
+
+#allin-img3 {
+  background-image: url("img/allin/Allin_stages_960x640-03.jpg");
+  position: absolute;
+  top: 24em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
+}
+
+#allin-img4 {
+  background-image: url("img/allin/Allin_Appreciation_960x640-05.jpg");
+  position: absolute;
+  top: 48em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
+}
+
+#allin-img5 {
+  background-image: url("img/allin/Allin_key_960x640-01.jpg");
+  position: absolute;
+  top: 72em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
+}
+
 @media only screen and (min-width: 768px) {
   main h2 {
     font-size: 2em;
@@ -238,12 +278,15 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
     transform: translateX(-34.5em);
   }
 
+  #allin-description {
+  }
+
   #ripple-section1 {
     height: 86em;
   }
 
-  #ripple-section2 {
-    height: 160em;
+  #allin-section1 {
+    height: 104em;
   }
 
   #ripple-img1 {
@@ -275,5 +318,24 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   #ripple-img5 {
     top: 110em;
     height: 70em;
+  }
+
+  #allin-img2 {
+    height: 50em;
+  }
+
+  #allin-img3 {
+    top: 40em;
+    height: 50em;
+  }
+
+  #allin-img4 {
+    top: 90em;
+    height: 50em;
+  }
+
+  #allin-img5 {
+    top: 140em;
+    height: 50em;
   }
 }
