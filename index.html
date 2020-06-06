@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
   <title>Li Vide</title>
+  <meta charset="utf-8">
   <meta name="description" content="Li Vide">
   <meta name="author" content="Emil Wall">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="styles.css?v=1.0">
 
   <!-- Josefin Sans font -->
@@ -35,21 +36,17 @@
     <a class="about-nav" href="about.html">About</a>
   </nav>
   <main>
-    <div id="work" class="container">
-      <div class="row">
-        <h2 class="col">Studio Ripple</h2>
-      </div>
-      <div class="row view overlay">
-        <div class="ripple-teaser col image" data-aos="fade-up">
+    <div id="work">
+      <h2>Studio Ripple</h2>
+      <div class="view overlay">
+        <div class="ripple-teaser image" data-aos="fade-up">
         </div>
         <a id="ripple" class="mask flex-center rgba-white-strong" href="ripple.html">
         </a>
       </div>
-      <div class="row">
-        <h2 class="col">All In Foundation</h2>
-      </div>
-      <div id="allin-container" class="row view overlay">
-        <div class="allin-teaser col image"
+      <h2>All In Foundation</h2>
+      <div id="allin-container" class="view overlay">
+        <div class="allin-teaser image"
           data-aos="fade-up"
           data-bottom-top="background-position: 50% 200px;"
           data-top-bottom="background-position: 50% -200px;"
@@ -58,11 +55,9 @@
         <div id="allin" class="mask flex-center rgba-white-strong">
         </div>
       </div>
-      <div class="row">
-        <h2 class="col">Hope</h2>
-      </div>
-      <div class="row view overlay">
-        <div class="hope-teaser col image" data-aos="fade-up">
+      <h2>Hope</h2>
+      <div class="view overlay">
+        <div class="hope-teaser image" data-aos="fade-up">
         </div>
         <div id="hope" class="mask flex-center rgba-white-strong">
         </div>
@@ -72,9 +67,6 @@
   <div id="skrollr-body"></div>
   <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
-  <script type="text/javascript">
-    AOS.init();
-    var s = skrollr.init();
-  </script>
+  <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>

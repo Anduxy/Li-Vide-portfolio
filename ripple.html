@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
   <title>Li Vide – Studio Ripple</title>
+  <meta charset="utf-8">
   <meta name="description" content="Studio Ripple project details">
   <meta name="author" content="Emil Wall">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="styles.css?v=1.0">
 
   <!-- Josefin Sans font -->
@@ -19,7 +20,7 @@
   <!-- Animations: http://michalsnik.github.io/aos/ -->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
-<body class="ripple">
+<body class="work">
   <header
     data-0="background: rgb(244, 204, 204);"
     data-280="background: rgb(255, 255, 255);">
@@ -47,24 +48,13 @@
     </svg></a>
   </nav>
   <main>
-    <div id="work" class="container">
-      <div class="ripple-img1 image"
+    <section id="ripple-section1">
+      <div class="image" id="ripple-img1"
         data-aos="fade-up"
-        data-bottom-top="top: 38vw;"
-        data-top-bottom="top: 80vw;">
+        data-bottom-top="top: -10rem;"
+        data-top-bottom="top: 20rem;">
       </div>
-      <div class="ripple-img2 image"
-        data-aos="fade-up"
-        data-bottom-top="top: 115vw;"
-        data-top-bottom="top: 135vw;">
-      </div>
-      <div class="ripple-img3 image"
-        data-aos="fade-up">
-      </div>
-      <div class="ripple-img4 image"
-        data-aos="fade-up">
-      </div>
-      <div class="ripple-description">
+      <div class="description">
         <h3>Service</h3>
         <p>Concept + development + final</p>
         <h3>Type of Project</h3>
@@ -90,14 +80,31 @@
         <p>User stories &gt; Project backlog &gt; Sprints &gt; Product backlog
           &gt; Stand ups &gt; Retrospective</p>
       </div>
-    </div>
+    </section>
+    <section id="ripple-section2">
+      <div class="image" id="ripple-img2"
+        data-aos="fade-down"
+        data-bottom-top="top: -12rem;"
+        data-top-bottom="top: 5rem;">
+      </div>
+      <div class="image" id="ripple-img3"
+        data-aos="fade-up">
+      </div>
+      <div class="image" id="ripple-img4"
+        data-aos="fade-up"
+        data-bottom-top="top: 35rem;"
+        data-top-bottom="top: 45rem;">
+      </div>
+      <div class="image" id="ripple-img5"
+        data-aos="fade-up"
+        data-bottom-top="top: 55rem;"
+        data-top-bottom="top: 65rem;">
+      </div>
+    </section>
   </main>
   <div id="skrollr-body"></div>
   <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
-  <script type="text/javascript">
-    AOS.init();
-    var s = skrollr.init();
-  </script>
+  <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>

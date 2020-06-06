@@ -17,15 +17,26 @@ html > body {
 
 header {
   text-align: center;
+  background: rgb(244, 204, 204);
 }
 
-header > h1 {
-  font-size: 4vw;
+header h1 {
+  font-size: 3.0em;
   font-weight: bold;
   color: white;
-  padding: 44vh 0 50vh;
-  left: 30vw;
+  padding: 44vh 0 0;
   height: 100vh;
+}
+
+.work header {
+  text-align: right;
+  padding-right: 3em;
+}
+
+.work header h1 {
+  font-size: 4.0em;
+  padding: 3em 0 0;
+  height: 4em;
 }
 
 .scroll-please {
@@ -37,26 +48,33 @@ header > h1 {
   color: white;
 }
 
-.scroll-please > em {
+.scroll-please em {
   font-style: normal;
   font-size: 2.2em;
 }
 
-.scroll-please > .vertical-line {
+.scroll-please .vertical-line {
   position: absolute;
   border-left: 1px solid white;
   margin: 5px 50%;
   padding: 12vh 1px;
 }
 
+.triangular {
+  width: 0;
+  height: 0;
+  border-bottom: 8em solid white;
+  border-left: 100vw solid transparent;
+}
+
 main h2 {
-  font-size: 4.8vw;
+  font-size: 2em;
   font-weight: bold;
   margin-top: 1rem;
 }
 
 main h3 {
-  font-size: 2em;
+  font-size: 1.4em;
   font-weight: 300;
   margin: 0;
   background-color: rgb(244, 204, 204);
@@ -64,35 +82,25 @@ main h3 {
 }
 
 main p {
-  font-size: 2em;
+  font-size: 1.4em;
 }
 
-@media only screen and (min-width: 992px)  {
+section {
+  position: relative;
+}
+
+@media only screen and (min-width: 768px)  {
   main h2 {
     font-size: 2em;
   }
 
   main h3 {
-    font-size: 1.4vw;
+    font-size: 1.4em;
   }
 
   main p {
-    font-size: 1.4vw;
+    font-size: 1.4em;
   }
-}
-
-main .container {
-  max-width: 100%;
-}
-
-@media only screen and (min-width: 992px)  {
-  main .container {
-    max-width: 960px;
-  }
-}
-
-p {
-  font-size: 4vw;
 }
 
 nav {
@@ -101,9 +109,15 @@ nav {
 
 nav a {
   position: absolute;
-  top: 50px;
+  top: 1em;
   font-size: 2.2em;
   font-weight: 300;
+}
+
+@media only screen and (min-width: 768px) {
+  nav a {
+    top: 1.4em;
+  }
 }
 
 a.about-nav {
@@ -142,90 +156,9 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   cursor: pointer;
 }
 
-.triangular {
-  width: 0;
-  height: 0;
-  border-bottom: 100px solid white;
-  border-left: 100vw solid transparent;
-}
-
 .ripple-teaser {
   background-image: url("img/Work/studio_ripple_message_960x640.jpg");
   height: 640px;
-}
-
-.ripple-description {
-  background-color: rgb(243, 243, 243);
-  position: absolute;
-  top: 50vw;
-  left: 10vw;
-  right: 45vw;
-  padding: 2vw;
-}
-
-.ripple-description p {
-  margin-left: 10vw;
-}
-
-.ripple-img1 {
-  background-image: url("img/ripple/Studio_Ripple_logo-01.png");
-  position: absolute;
-  top: 50vw;
-  left: 44vw;
-  padding: 22vw;
-}
-
-.ripple-img2 {
-  background-image: url("img/ripple/studio_ripple_colors_960x640-02.jpg");
-  position: absolute;
-  top: 300vw;
-  left: 12vw;
-  padding: 22vw;
-}
-
-.ripple-img3 {
-  background-image: url("img/ripple/studio_ripple_font.png");
-  position: absolute;
-  top: 200vw;
-  left: 50vw;
-  padding: 22vw;
-}
-
-.ripple-img4 {
-  background-image: url("img/ripple/studio_ripple_logos_960x640-04.jpg");
-  position: absolute;
-  top: 240vw;
-  left: 5vw;
-  padding: 45vw;
-}
-
-
-@media only screen and (min-width: 992px)  {
-  .ripple-img1 {
-    top: 50vw;
-  }
-
-  .ripple-img2 {
-    top: 120vw;
-  }
-
-  .ripple-img3 {
-    top: 148vw;
-  }
-
-  .ripple-img4 {
-    top: 165vw;
-  }
-}
-
-.ripple header {
-  text-align: right;
-  padding-right: 5vw;
-}
-
-.ripple header > h1 {
-  height: 25vw;
-  padding: 20vw 0 0;
 }
 
 .allin-teaser {
@@ -236,4 +169,103 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 .hope-teaser {
   background-image: url("img/Work/Hope_futureretail_960x640.jpg");
   height: 640px;
+}
+
+.description {
+  background-color: rgb(243, 243, 243);
+  position: absolute;
+  padding: 1em;
+  left: 2em;
+  width: 30em;
+  top: 14.4em;
+}
+
+.description p {
+  margin-left: 10vw;
+}
+
+#ripple-section1 {
+  height: 98em;
+}
+
+#ripple-img1 {
+  background-image: url("img/ripple/Studio_Ripple_logo-01.png");
+  position: absolute;
+  top: -2em;
+  right: 1.4em;
+  padding: 12em;
+}
+
+#ripple-img2 {
+  background-image: url("img/ripple/studio_ripple_colors_960x640-02.jpg");
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 4em;
+  right: 4em;
+  height: 18em;
+}
+
+#ripple-img3 {
+  background-image: url("img/ripple/studio_ripple_font.png");
+  position: absolute;
+  top: 14rem;
+  left: 4em;
+  right: 4em;
+  height: 18em;
+}
+
+#ripple-img4 {
+  background-image: url("img/ripple/studio_ripple_logo-bottom-a.png");
+  position: absolute;
+  top: 42em;
+  left: 5vw;
+  width: 90vw;
+  height: 80vw;
+}
+
+#ripple-img5 {
+  background-image: url("img/ripple/studio_ripple_logo-bottom-b.png");
+  position: absolute;
+  top: 78em;
+  left: 5vw;
+  width: 90vw;
+  height: 90vw;
+  margin-bottom: 4em;
+}
+
+@media only screen and (min-width: 768px)  {
+  .description {
+    right: 45vw;
+    width: 36em;
+    top: 5vw;
+  }
+
+  #ripple-section1 {
+    height: 80rem;
+  }
+
+  #ripple-img1 {
+  }
+
+  #ripple-img2 {
+    top: 0vw;
+    left: 12vw;
+    width: 45vw;
+    height: 30vw;
+  }
+
+  #ripple-img3 {
+    top: 15rem;
+    left: 50vw;
+    width: 44vw;
+    height: 22vw;
+  }
+
+  #ripple-img4 {
+    top: 35rem;
+    left: 5vw;
+    width: 90vw;
+    height: 60vw;
+  }
 }
