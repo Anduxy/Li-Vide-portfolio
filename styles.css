@@ -64,13 +64,14 @@ header h1 {
   width: 0;
   height: 0;
   border-bottom: 8em solid white;
+  border-left: 125em solid transparent;
   border-left: 100vw solid transparent;
 }
 
 main h2 {
   font-size: 2em;
   font-weight: bold;
-  margin-top: 1rem;
+  margin-top: 1.4em;
 }
 
 main h3 {
@@ -112,12 +113,7 @@ nav a {
   top: 1em;
   font-size: 2.2em;
   font-weight: 300;
-}
-
-@media only screen and (min-width: 768px) {
-  nav a {
-    top: 1.4em;
-  }
+  margin-left: -1em;
 }
 
 a.about-nav {
@@ -125,7 +121,7 @@ a.about-nav {
 }
 
 a.close-nav svg {
-  height: 5vw;
+  height: 2em;
   fill: white;
 }
 
@@ -149,7 +145,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 1rem;
+  padding: 1.4em;
 }
 
 .mask {
@@ -176,24 +172,25 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   position: absolute;
   padding: 1em;
   left: 2em;
-  width: 30em;
+  width: 30.4em;
   top: 14.4em;
 }
 
 .description p {
-  margin-left: 10vw;
+  margin-left: 8em;
 }
 
 #ripple-section1 {
-  height: 98em;
+  height: 124em;
 }
 
 #ripple-img1 {
   background-image: url("img/ripple/Studio_Ripple_logo-01.png");
   position: absolute;
   top: -2em;
-  right: 1.4em;
-  padding: 12em;
+  right: 4em;
+  width: 18em;
+  height: 24em;
 }
 
 #ripple-img2 {
@@ -209,7 +206,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 #ripple-img3 {
   background-image: url("img/ripple/studio_ripple_font.png");
   position: absolute;
-  top: 14rem;
+  top: 22em;
   left: 4em;
   right: 4em;
   height: 18em;
@@ -219,53 +216,65 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   background-image: url("img/ripple/studio_ripple_logo-bottom-a.png");
   position: absolute;
   top: 42em;
-  left: 5vw;
-  width: 90vw;
-  height: 80vw;
+  left: 2em;
+  right: 2em;
+  height: 35em;
 }
 
 #ripple-img5 {
   background-image: url("img/ripple/studio_ripple_logo-bottom-b.png");
   position: absolute;
-  top: 78em;
-  left: 5vw;
-  width: 90vw;
-  height: 90vw;
+  top: 78.4em;
+  left: 2em;
+  right: 2em;
+  height: 38em;
   margin-bottom: 4em;
 }
 
 @media only screen and (min-width: 768px)  {
   .description {
-    right: 45vw;
-    width: 36em;
-    top: 5vw;
+    width: 44em;
+    top: 12em;
+    left: 4em;
+    padding: 2em;
   }
 
   #ripple-section1 {
-    height: 80rem;
+    height: 86em;
+  }
+
+  #ripple-section2 {
+    height: 160em;
   }
 
   #ripple-img1 {
+    width: 33em;
+    height: 44em;
+    left: 50%;
+    top: 2em;
   }
 
   #ripple-img2 {
-    top: 0vw;
-    left: 12vw;
-    width: 45vw;
-    height: 30vw;
+    left: 16em;
+    right: 16em;
+    height: 22em;
+    transform: translate(-150px, 0);
   }
 
   #ripple-img3 {
-    top: 15rem;
-    left: 50vw;
-    width: 44vw;
-    height: 22vw;
+    top: 18em;
+    left: 16em;
+    right: 16em;
+    height: 20em;
+    transform: translate(130px, 0);
   }
 
   #ripple-img4 {
-    top: 35rem;
-    left: 5vw;
-    width: 90vw;
-    height: 60vw;
+    height: 64em;
+  }
+
+  #ripple-img5 {
+    top: 110em;
+    height: 70em;
   }
 }
