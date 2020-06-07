@@ -20,7 +20,7 @@
   <!-- Animations: http://michalsnik.github.io/aos/ -->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
-<body>
+<body class="landing">
   <header
     data-0="background: rgb(244, 204, 204);"
     data-top-bottom="background: rgb(255, 255, 255);">
@@ -36,17 +36,21 @@
     <a class="about-nav" href="about.html">About</a>
   </nav>
   <main>
-    <div id="work">
-      <h2>Studio Ripple</h2>
+    <section id="ripple-teaser">
+      <h2 class="right">Studio Ripple</h2>
       <div class="view overlay">
-        <div class="ripple-teaser image" data-aos="fade-up">
-        </div>
-        <a id="ripple" class="mask flex-center rgba-white-strong" href="ripple.html">
-        </a>
+        <div class="ripple-teaser1 image" data-aos="fade-up"></div>
+        <a class="mask flex-center rgba-white-strong" href="ripple.html"></a>
       </div>
+      <div class="view overlay">
+        <div class="ripple-teaser2 image" data-aos="fade-up"></div>
+        <a class="mask flex-center rgba-white-strong" href="ripple.html"></a>
+      </div>
+    </section>
+    <section id="allin-teaser">
       <h2>All In Foundation</h2>
       <div id="allin-container" class="view overlay">
-        <div class="allin-teaser image"
+        <div class="allin-teaser1 image"
           data-aos="fade-up"
           data-bottom-top="background-position: 50% 200px;"
           data-top-bottom="background-position: 50% -200px;"
@@ -55,20 +59,54 @@
         <a id="allin" class="mask flex-center rgba-white-strong" href="allin.html">
         </a>
       </div>
-      <h2>Hope</h2>
+      <div id="allin-container" class="view overlay">
+        <div class="allin-teaser2 image"
+          data-aos="fade-up"
+          data-bottom-top="background-position: 50% -200px;"
+          data-top-bottom="background-position: 50% 200px;"
+          data-anchor-target="#allin-container">
+        </div>
+        <a id="allin" class="mask flex-center rgba-white-strong" href="allin.html">
+        </a>
+      </div>
+    </section>
+    <section id="hope-teaser">
+      <h2 class="right">Hope</h2>
       <div class="view overlay">
         <div class="hope-teaser image" data-aos="fade-up">
         </div>
         <a id="hope" class="mask flex-center rgba-white-strong" href="hope.html">
         </a>
       </div>
-      <section id="hope-section2">
-        <video playsinline="" loop="" autoplay="" muted="" name="media">
-          <source src="hope.mp4" type="video/mp4">
-        </video>
-      </section>
-    </div>
+    </section>
+    <section id="hope-section2">
+      <video playsinline="" loop="" autoplay="" muted="" name="media">
+        <source src="hope.mp4" type="video/mp4">
+      </video>
+    </section>
+    <section id="lantmannen-section">
+      <h2>Lantm&auml;nnen</h2>
+      <div class="lantmannen image" data-aos="fade-up">
+      </div>
+    </section>
+    <section id="portraits-section">
+      <h2 class="right">Portraits</h2>
+      <div class="emilavatar image" data-aos="fade-up">
+      </div>
+      <div class="liavatar image" data-aos="fade-up">
+      </div>
+    </section>
+    <section id="skyline-section">
+      <h2>Stockholm Skyline</h2>
+      <div class="stockholm image" data-aos="fade-up">
+      </div>
+    </section>
   </main>
+  <footer>
+    <a href="mailto:hello@livide.se">hello@livide.se</a>
+    <a href="https://www.linkedin.com/in/li-mattison/">[in]</a>
+    <a href="https://www.instagram.com/li.vide/">[ig]</a>
+  </footer>
   <div id="skrollr-body"></div>
   <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
