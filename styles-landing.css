@@ -81,43 +81,100 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   background-image: url("img/landing/StudioRipple_logo-02.png");
 }
 
+#allin-teasersection {
+  height: 90em;
+}
+
+#allin-container1 {
+  position: absolute;
+  top: 5em;
+  left: 2em;
+  right: 2em;
+  height: 64em;
+}
+
 #allin-teaser1 {
   background-image: url("img/landing/allin_appreciation.png");
-  height: 60em;
+}
+
+#allin-container2 {
+  position: absolute;
+  top: 70em;
+  left: 2em;
+  right: 2em;
+  height: 22em;
 }
 
 #allin-teaser2 {
   background-image: url("img/landing/allin_stages.png");
-  height: 60em;
+}
+
+#hope-teasersection {
+  height: 26em;
+}
+
+#hope-container {
+  position: absolute;
+  top: 4em;
+  left: 0;
+  right: 0;
+  height: 24em;
 }
 
 #hope-teaser {
   background-image: url("img/landing/hope_futureofretail.png");
-  height: 60em;
+}
+
+#lantmannen-section {
+  height: 30em;
 }
 
 #lantmannen {
   background-image: url("img/landing/FutureWorkplace-01.png");
-  height: 60em;
+  position: absolute;
+  top: 6em;
+  left: 0;
+  right: 0;
+  height: 24em;
+}
+
+#portraits-section {
+  height: 30em;
 }
 
 #emilavatar {
   background-image: url("img/landing/emil-avatar_square-02-a.png");
-  height: 60em;
+  position: absolute;
+  top: 6em;
+  left: 0;
+  width: 50%;
+  height: 24em;
 }
 
 #liavatar {
   background-image: url("img/landing/li-avatar-02-b.png");
-  height: 60em;
+  position: absolute;
+  top: 6em;
+  right: 0;
+  width: 50%;
+  height: 24em;
+}
+
+#skyline-section {
+  height: 30em;
 }
 
 #stockholm {
   background-image: url("img/landing/SthlmSkyline_grey-03.png");
-  height: 60em;
+  position: absolute;
+  top: 6em;
+  left: 0;
+  right: 0;
+  height: 18em;
 }
 
 @media only screen and (min-width: 768px) {
   main h2 {
-    font-size: 2em;
+    font-size: 5em;
   }
 }
