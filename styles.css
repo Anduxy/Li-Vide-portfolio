@@ -104,6 +104,7 @@ main p {
 
 main #work {
   text-align: center;
+  overflow: hidden;
 }
 
 section {
