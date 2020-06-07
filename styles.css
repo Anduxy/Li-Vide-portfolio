@@ -106,7 +106,7 @@ section {
   position: relative;
 }
 
-main #work, #hope-section2 {
+section#hope-section2 {
   text-align: center;
   overflow-x: hidden;
 }
