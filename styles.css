@@ -165,52 +165,52 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   cursor: pointer;
 }
 
-.ripple-teaser1 {
+#ripple-teaser1 {
   background-image: url("img/landing/Studio_Ripple_logo-01.png");
   height: 60em;
 }
 
-.ripple-teaser2 {
+#ripple-teaser2 {
   background-image: url("img/landing/StudioRipple_logo-02.png");
   height: 60em;
 }
 
-.allin-teaser1 {
+#allin-teaser1 {
   background-image: url("img/landing/allin_appreciation.png");
   height: 60em;
 }
 
-.allin-teaser2 {
+#allin-teaser2 {
   background-image: url("img/landing/allin_stages.png");
   height: 60em;
 }
 
-.hope-teaser {
+#hope-teaser {
   background-image: url("img/landing/hope_futureofretail.png");
   height: 60em;
 }
 
-.lantmannen {
+#lantmannen {
   background-image: url("img/landing/FutureWorkplace-01.png");
   height: 60em;
 }
 
-.emilavatar {
+#emilavatar {
   background-image: url("img/landing/emil-avatar_square-02-a.png");
   height: 60em;
 }
 
-.liavatar {
+#liavatar {
   background-image: url("img/landing/li-avatar-02-b.png");
   height: 60em;
 }
 
-.stockholm {
+#stockholm {
   background-image: url("img/landing/SthlmSkyline_grey-03.png");
   height: 60em;
 }
 
-.description {
+#description {
   background-color: rgb(243, 243, 243);
   position: absolute;
   padding: 1em;
@@ -219,7 +219,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   top: 14.4em;
 }
 
-.description p {
+#description p {
   margin-left: 8em;
 }
 
