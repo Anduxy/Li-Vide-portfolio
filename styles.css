@@ -102,13 +102,13 @@ main p {
   font-size: 1.4em;
 }
 
-main #work {
-  text-align: center;
-  overflow: hidden;
-}
-
 section {
   position: relative;
+}
+
+main #work, #hope-section2 {
+  text-align: center;
+  overflow-x: hidden;
 }
 
 nav {
@@ -195,6 +195,10 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   height: 146em;
 }
 
+#hope-section1 {
+  height: 106em;
+}
+
 #ripple-img1 {
   background-image: url("img/ripple/Studio_Ripple_logo-01.png");
   position: absolute;
@@ -278,6 +282,33 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   height: 26em;
 }
 
+#hope-img1 {
+  background-image: url("img/hope/hope_renewyourself.png");
+  position: absolute;
+  top: 0;
+  left: 1em;
+  right: 1em;
+  height: 28em;
+}
+
+#hope-img2 {
+  background-image: url("img/hope/Hope_UserJourney_960x640-03.jpg");
+  position: absolute;
+  top: 0;
+  left: 1em;
+  right: 1em;
+  height: 28em;
+}
+
+#hope-img3 {
+  background-image: url("img/hope/Hope_futureretail_960x640-01.jpg");
+  position: absolute;
+  top: 24em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
+}
+
 @media only screen and (min-width: 768px) {
   .work h1, .about h1 {
     font-size: 5em;
@@ -295,6 +326,13 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 
   main p {
     font-size: 1.4em;
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 50vw;
+    width: 36em;
   }
 
   .description {
@@ -316,6 +354,14 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
     height: 104em;
   }
 
+  #hope-section1 {
+    height: 80em;
+  }
+
+  #hope-section2 {
+    height: 64em;
+  }
+
   #ripple-img1 {
     width: 33em;
     height: 44em;
@@ -327,7 +373,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
     left: 16em;
     right: 16em;
     height: 22em;
-    transform: translateX(-150px);
+    transform: translateX(-15em);
   }
 
   #ripple-img3 {
@@ -335,7 +381,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
     left: 16em;
     right: 16em;
     height: 20em;
-    transform: translateX(130px);
+    transform: translateX(13em);
   }
 
   #ripple-img4 {
@@ -364,5 +410,23 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   #allin-img5 {
     top: 140em;
     height: 50em;
+  }
+
+  #hope-img1 {
+    width: 33em;
+    height: 44em;
+    left: 50%;
+    top: 2em;
+  }
+
+  #hope-img2 {
+    height: 34em;
+    transform: translateX(-10em);
+  }
+
+  #hope-img3 {
+    top: 24em;
+    height: 26em;
+    transform: translateX(14em);
   }
 }
