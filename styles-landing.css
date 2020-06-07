@@ -51,6 +51,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 
 #ripple-teasersection {
   height: 44em;
+  overflow: initial;
 }
 
 #ripple-container1 {
@@ -82,7 +83,8 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #allin-teasersection {
-  height: 90em;
+  height: 92em;
+  overflow: initial;
 }
 
 #allin-container1 {
@@ -110,7 +112,12 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #hope-teasersection {
-  height: 26em;
+  height: 90em;
+  overflow: initial;
+}
+
+#hope-teasersection video {
+  top: 20em;
 }
 
 #hope-container {
@@ -176,5 +183,22 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 @media only screen and (min-width: 768px) {
   main h2 {
     font-size: 5em;
+  }
+
+  #ripple-container1 {
+    left: auto;
+    width: 36em;
+    height: 48em;
+  }
+
+  #ripple-container2 {
+    width: 44em;
+    left: calc(50% - 7em);
+    right: auto;
+    height: 70em;
+  }
+
+  #ripple-teasersection {
+    height: 82.4em;
   }
 }
