@@ -3,6 +3,8 @@ html, html > body {
   padding: 0;
   font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 html > body {
