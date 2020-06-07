@@ -173,6 +173,10 @@ section#hope-section2 {
   font-weight: bold;
 }
 
+#about-section3 {
+  overflow: hidden;
+}
+
 #ripple-img1 {
   background-image: url("img/ripple/Studio_Ripple_logo-01.png");
   position: absolute;
@@ -284,21 +288,21 @@ section#hope-section2 {
 }
 
 #about-portrait {
-  background-image: url(img/about/LiVidePortrait_960x640.jpg);
+  background-image: url(img/about/Li_Portrait.png);
   position: absolute;
   top: 3em;
   left: 1em;
   right: 50%;
-  height: 13em;
+  height: 26em;
 }
 
 #about-timeline {
   background-image: url("img/about/Timeline.jpg");
   position: absolute;
   top: 5em;
-  left: 1em;
-  right: 1em;
-  height: 64em;
+  left: -4em;
+  right: -4em;
+  height: 72em;
 }
 
 @media only screen and (min-width: 768px) {
