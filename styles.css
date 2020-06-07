@@ -16,6 +16,35 @@ html > body {
   }
 }
 
+nav {
+  text-align: center;
+}
+
+nav a {
+  position: absolute;
+  top: 1em;
+  font-size: 2.2em;
+  font-weight: 300;
+  margin-left: -1em;
+}
+
+nav a.close-nav:hover {
+  text-decoration: none;
+}
+
+nav a, nav a:link, nav a:visited {
+  color: white;
+}
+
+a.about-nav {
+  right: 2em;
+}
+
+a.close-nav svg {
+  height: 2em;
+  fill: white;
+}
+
 header {
   overflow: hidden;
   text-align: center;
@@ -49,27 +78,6 @@ header h1 {
   padding-left: 1em;
 }
 
-.scroll-please {
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 12vh;
-  color: white;
-}
-
-.scroll-please em {
-  font-style: normal;
-  font-size: 2.2em;
-}
-
-.scroll-please .vertical-line {
-  position: absolute;
-  border-left: 1px solid white;
-  margin: 5px 50%;
-  padding: 12vh 1px;
-}
-
 .triangular {
   width: 0;
   height: 0;
@@ -84,24 +92,18 @@ header h1 {
   border-right: 100vw solid transparent;
 }
 
-main h2 {
-  font-size: 4em;
-  font-weight: bold;
-  margin-top: 1.4em;
-  color: rgb(244, 204, 204);
-}
-
-h2.right {
-  text-align: right;
-  padding-right: 1em;
-}
-
 main h3 {
   font-size: 1.4em;
   font-weight: 300;
   margin: 0;
   background-color: rgb(244, 204, 204);
   display: inline;
+}
+
+.about h3 {
+  background-color: rgb(226, 226, 256);
+  margin-bottom: 1em;
+  display: block;
 }
 
 main p {
@@ -117,97 +119,11 @@ section#hope-section2 {
   overflow-x: hidden;
 }
 
-nav {
-  text-align: center;
-}
-
-nav a {
-  position: absolute;
-  top: 1em;
-  font-size: 2.2em;
-  font-weight: 300;
-  margin-left: -1em;
-}
-
-a.about-nav {
-  right: 2em;
-}
-
-a.close-nav svg {
-  height: 2em;
-  fill: white;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-nav a.close-nav:hover {
-  text-decoration: none;
-}
-
-nav a, nav a:link, nav a:visited {
-  color: white;
-}
-
-nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
-  color: #F4CCCC;
-}
-
 .image {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   padding: 1.4em;
-}
-
-.mask {
-  cursor: pointer;
-}
-
-#ripple-teaser1 {
-  background-image: url("img/landing/Studio_Ripple_logo-01.png");
-  height: 60em;
-}
-
-#ripple-teaser2 {
-  background-image: url("img/landing/StudioRipple_logo-02.png");
-  height: 60em;
-}
-
-#allin-teaser1 {
-  background-image: url("img/landing/allin_appreciation.png");
-  height: 60em;
-}
-
-#allin-teaser2 {
-  background-image: url("img/landing/allin_stages.png");
-  height: 60em;
-}
-
-#hope-teaser {
-  background-image: url("img/landing/hope_futureofretail.png");
-  height: 60em;
-}
-
-#lantmannen {
-  background-image: url("img/landing/FutureWorkplace-01.png");
-  height: 60em;
-}
-
-#emilavatar {
-  background-image: url("img/landing/emil-avatar_square-02-a.png");
-  height: 60em;
-}
-
-#liavatar {
-  background-image: url("img/landing/li-avatar-02-b.png");
-  height: 60em;
-}
-
-#stockholm {
-  background-image: url("img/landing/SthlmSkyline_grey-03.png");
-  height: 60em;
 }
 
 #description {
@@ -223,6 +139,14 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   margin-left: 8em;
 }
 
+#about-description {
+  position: absolute;
+  padding: 1em;
+  left: 50%;
+  width: 20em;
+  top: 2em;
+}
+
 #ripple-section1 {
   height: 124em;
 }
@@ -233,6 +157,20 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 
 #hope-section1 {
   height: 106em;
+}
+
+#hope-section1 #description {
+  top: 26em;
+}
+
+#about-section1 {
+  height: 60em;
+}
+
+#about-section2 {
+  padding: 0 1em;
+  font-family: 'Bungee Hairline', cursive;
+  font-weight: bold;
 }
 
 #ripple-img1 {
@@ -312,7 +250,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 #allin-img5 {
   background-image: url("img/allin/allin_key.png");
   position: absolute;
-  top: 72em;
+  top: 76em;
   left: 1em;
   right: 1em;
   height: 26em;
@@ -346,21 +284,21 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #about-portrait {
-  background-image: url("img/about/LiVidePortrait_960x640.jpg");
+  background-image: url(img/about/LiVidePortrait_960x640.jpg);
   position: absolute;
-  top: 24em;
+  top: 3em;
   left: 1em;
-  right: 1em;
-  height: 26em;
+  right: 50%;
+  height: 13em;
 }
 
 #about-timeline {
   background-image: url("img/about/Timeline.jpg");
   position: absolute;
-  top: 44em;
+  top: 5em;
   left: 1em;
   right: 1em;
-  height: 26em;
+  height: 64em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -368,10 +306,6 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
     font-size: 5em;
     padding-top: 2.8em;
     height: 3.8em;
-  }
-
-  main h2 {
-    font-size: 2em;
   }
 
   main h3 {

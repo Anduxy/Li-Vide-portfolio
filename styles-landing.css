@@ -1,0 +1,123 @@
+nav a:hover {
+  text-decoration: underline;
+}
+
+.scroll-please {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12vh;
+  color: white;
+}
+
+.scroll-please em {
+  font-style: normal;
+  font-size: 2.2em;
+}
+
+.scroll-please .vertical-line {
+  position: absolute;
+  border-left: 1px solid white;
+  margin: 5px 50%;
+  padding: 12vh 1px;
+}
+
+main h2 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-top: 1.4em;
+  color: rgb(244, 204, 204);
+  padding-left: 1em;
+}
+
+h2.right {
+  text-align: right;
+  padding-right: 1em;
+}
+
+nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
+  color: #F4CCCC;
+}
+
+.landing .image {
+  width: 100%;
+  height: 100%;
+}
+
+.mask {
+  cursor: pointer;
+}
+
+#ripple-teasersection {
+  height: 44em;
+}
+
+#ripple-container1 {
+  position: absolute;
+  top: 5em;
+  left: 2em;
+  right: 50%;
+  height: 25em;
+}
+
+#ripple-teaser1 {
+  background-image: url("img/landing/Studio_Ripple_logo-01.png");
+}
+
+#ripple-container2 {
+  position: absolute;
+  top: 20em;
+  right: 2em;
+  left: 33%;
+  height: 25em;
+}
+
+#ripple-container2 .mask {
+  left: 7em;
+}
+
+#ripple-teaser2 {
+  background-image: url("img/landing/StudioRipple_logo-02.png");
+}
+
+#allin-teaser1 {
+  background-image: url("img/landing/allin_appreciation.png");
+  height: 60em;
+}
+
+#allin-teaser2 {
+  background-image: url("img/landing/allin_stages.png");
+  height: 60em;
+}
+
+#hope-teaser {
+  background-image: url("img/landing/hope_futureofretail.png");
+  height: 60em;
+}
+
+#lantmannen {
+  background-image: url("img/landing/FutureWorkplace-01.png");
+  height: 60em;
+}
+
+#emilavatar {
+  background-image: url("img/landing/emil-avatar_square-02-a.png");
+  height: 60em;
+}
+
+#liavatar {
+  background-image: url("img/landing/li-avatar-02-b.png");
+  height: 60em;
+}
+
+#stockholm {
+  background-image: url("img/landing/SthlmSkyline_grey-03.png");
+  height: 60em;
+}
+
+@media only screen and (min-width: 768px) {
+  main h2 {
+    font-size: 2em;
+  }
+}
