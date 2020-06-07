@@ -4,7 +4,6 @@ html, html > body {
   font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
   scroll-behavior: smooth;
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 html > body {
@@ -18,6 +17,7 @@ html > body {
 }
 
 header {
+  overflow: hidden;
   text-align: center;
   background: rgb(244, 204, 204);
 }
@@ -35,10 +35,18 @@ header h1 {
   padding-right: 3em;
 }
 
-.work header h1 {
-  font-size: 4.0em;
+.about header {
+  text-align: left;
+}
+
+.work h1, .about h1 {
+  font-size: 4em;
   padding: 3em 0 0;
   height: 4em;
+}
+
+.about h1 {
+  padding-left: 1em;
 }
 
 .scroll-please {
@@ -68,6 +76,12 @@ header h1 {
   border-bottom: 8em solid white;
   border-left: 125em solid transparent;
   border-left: 100vw solid transparent;
+}
+
+.triangular.mirrored {
+  border-left: none;
+  border-right: 125em solid transparent;
+  border-right: 100vw solid transparent;
 }
 
 main h2 {
@@ -105,7 +119,7 @@ nav a {
 }
 
 a.about-nav {
-  right: 100px;
+  right: 2em;
 }
 
 a.close-nav svg {
@@ -224,7 +238,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #allin-img2 {
-  background-image: url("img/allin/Allin_timeline_phases_960x640-02.jpg");
+  background-image: url("img/allin/allin_stages_timeline.png");
   position: absolute;
   top: 0;
   left: 1em;
@@ -233,7 +247,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #allin-img3 {
-  background-image: url("img/allin/Allin_stages_960x640-03.jpg");
+  background-image: url("img/allin/allin_stage_prototypes.png");
   position: absolute;
   top: 24em;
   left: 1em;
@@ -242,7 +256,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #allin-img4 {
-  background-image: url("img/allin/Allin_Appreciation_960x640-05.jpg");
+  background-image: url("img/allin/allin_mlp_prototype.png");
   position: absolute;
   top: 48em;
   left: 1em;
@@ -251,7 +265,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #allin-img5 {
-  background-image: url("img/allin/Allin_key_960x640-01.jpg");
+  background-image: url("img/allin/allin_key.png");
   position: absolute;
   top: 72em;
   left: 1em;
@@ -260,6 +274,12 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 @media only screen and (min-width: 768px) {
+  .work h1, .about h1 {
+    font-size: 5em;
+    padding-top: 2.8em;
+    height: 3.8em;
+  }
+
   main h2 {
     font-size: 2em;
   }
@@ -302,7 +322,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
     left: 16em;
     right: 16em;
     height: 22em;
-    transform: translate(-150px, 0);
+    transform: translateX(-150px);
   }
 
   #ripple-img3 {
@@ -310,7 +330,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
     left: 16em;
     right: 16em;
     height: 20em;
-    transform: translate(130px, 0);
+    transform: translateX(130px);
   }
 
   #ripple-img4 {
