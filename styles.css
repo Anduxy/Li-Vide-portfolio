@@ -32,7 +32,7 @@ nav a.close-nav:hover {
   text-decoration: none;
 }
 
-nav a, nav a:link, nav a:visited {
+footer a, nav a, footer a:link, nav a:link, footer a:visited, nav a:visited {
   color: white;
 }
 
@@ -124,6 +124,22 @@ section#hope-section2 {
   background-repeat: no-repeat;
   background-size: contain;
   padding: 1.4em;
+}
+
+footer {
+  font-size: 1.4rem;
+  padding: 2rem;
+  height: 6rem;
+  position: relative;
+  background: rgb(244, 204, 204);
+}
+
+footer > a {
+  text-decoration: underline;
+}
+
+address {
+  float: right;
 }
 
 #description {
