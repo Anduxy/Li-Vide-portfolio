@@ -102,6 +102,10 @@ main p {
   font-size: 1.4em;
 }
 
+main #work {
+  text-align: center;
+}
+
 section {
   position: relative;
 }
