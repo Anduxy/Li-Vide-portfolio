@@ -1,7 +1,8 @@
 // Initialize animate on scroll
 AOS.init();
 
-// If non-touch devide, initialize skrollr
-if (!('ontouchstart' in window)) {
+// Initialize skrollr on non-touch devices only
+var touchDevice = 'ontouchstart' in window;
+if (!touchDevice) {
     var s = skrollr.init();
 }
