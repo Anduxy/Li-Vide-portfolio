@@ -6,11 +6,18 @@
   <meta name="description" content="Li Vide">
   <meta name="author" content="Emil Wall">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css?v=1.1">
-  <link rel="stylesheet" href="styles-landing.css?v=1.1">
+
+  <!-- Shared CSS -->
+  <link href="styles.css?v=1.1" rel="stylesheet" >
+
+  <!-- Landing page CSS -->
+  <link href="styles-landing.css?v=1.1" rel="stylesheet" >
 
   <!-- Josefin Sans font -->
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap" rel="stylesheet">
+
+  <!-- Font awesome icons for instagram and linkedin -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
   <!-- Bootstrap core CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -18,8 +25,8 @@
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
 
-  <!-- Animations: http://michalsnik.github.io/aos/ -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <!-- Animations on scroll, http://michalsnik.github.io/aos/ -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="landing">
   <header
@@ -93,10 +100,11 @@
     </section>
   </main>
   <footer>
-    <a href="mailto:hello@livide.se">hello@livide.se</a>
+    <a href="mailto:hello@livide.se" id="hello">hello@livide.se</a>
+    <a href="about.html">About</a>
     <address>
-      <a href="https://www.linkedin.com/in/li-mattison/">[in]</a>
-      <a href="https://www.instagram.com/li.vide/">[ig]</a>
+      <a href="https://www.linkedin.com/in/li-mattison/"><i class="fab fa-linkedin" title="linked in"></i></a>
+      <a href="https://www.instagram.com/li.vide/"><i class="fab fa-instagram" title="instagram"></i></a>
     </address>
   </footer>
   <div id="skrollr-body"></div>

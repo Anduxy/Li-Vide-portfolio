@@ -32,12 +32,34 @@ nav a.close-nav:hover {
   text-decoration: none;
 }
 
+footer {
+    font-size: 1.4rem;
+    padding: 2rem;
+    height: 6rem;
+    position: relative;
+    background: rgb(244, 204, 204);
+  text-align: center;
+}
+
+footer #hello {
+  float: left;
+}
+
 footer a, nav a, footer a:link, nav a:link, footer a:visited, nav a:visited {
   color: white;
 }
 
-a.about-nav {
-  right: 2em;
+footer > a {
+  text-decoration: underline;
+}
+
+address {
+  float: right;
+  font-size: 1.2em;
+}
+
+address a + a {
+  margin-left: 0.5em;
 }
 
 a.close-nav svg {
@@ -124,22 +146,6 @@ section#hope-section2 {
   background-repeat: no-repeat;
   background-size: contain;
   padding: 1.4em;
-}
-
-footer {
-  font-size: 1.4rem;
-  padding: 2rem;
-  height: 6rem;
-  position: relative;
-  background: rgb(244, 204, 204);
-}
-
-footer > a {
-  text-decoration: underline;
-}
-
-address {
-  float: right;
 }
 
 #description {

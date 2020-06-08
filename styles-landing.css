@@ -38,6 +38,9 @@ h2.right {
 
 nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   color: #F4CCCC;
+  font-weight: bold;
+  padding: 0.4em;
+  right: 2em;
 }
 
 .landing .image {
