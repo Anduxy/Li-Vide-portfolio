@@ -184,8 +184,15 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 @media only screen and (min-width: 768px) {
+  section {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   main h2 {
     font-size: 5em;
+    padding: 0 0.5em;
   }
 
   #ripple-container1 {
@@ -233,8 +240,9 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   }
 
   #hope-teasersection video {
-    top: 16em;
     position: absolute;
+    top: 16em;
+    left: calc(50% + 1em);
   }
 
   #hope-teasersection {
