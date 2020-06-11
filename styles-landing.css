@@ -149,7 +149,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #portraits-section {
-  height: 30em;
+  height: 34em;
 }
 
 #emilavatar {
@@ -157,17 +157,17 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   position: absolute;
   top: 6em;
   left: 0;
-  width: 50%;
-  height: 24em;
+  width: 67%;
+  height: 28em;
 }
 
 #liavatar {
   background-image: url("img/landing/li-avatar-02-b.png");
   position: absolute;
   top: 6em;
-  right: 0;
-  width: 50%;
-  height: 24em;
+  right: 1em;
+  width: 33%;
+  height: 28em;
 }
 
 #skyline-section {
@@ -250,16 +250,28 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
     height: 60em;
   }
 
-  #emilavatar, #liavatar {
+  #emilavatar {
+    width: 50em;
+    height: 50em;
+    left: unset;
+    right: calc(50% - 12.5em);
+  }
+
+  #liavatar {
+    width: 25em;
     height: 40em;
+    left: calc(50% + 12.5em);
+    right: unset;
+    z-index: -1;
   }
 
   #portraits-section {
-    height: 56em;
+    height: 66em;
   }
 
   #stockholm {
     height: 32.4em;
+    z-index: -1;
   }
 
   #skyline-section {

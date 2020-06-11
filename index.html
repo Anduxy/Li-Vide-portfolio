@@ -28,7 +28,9 @@
   <!-- Animations on scroll, http://michalsnik.github.io/aos/ -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body class="landing">
+<body class="landing"
+  data-300-end="background: rgb(255, 255, 255);"
+  data-end="background: rgb(240, 220, 220);">
   <header
     data-0="background: rgb(244, 204, 204);"
     data-top-bottom="background: rgb(255, 255, 255);">
@@ -84,12 +86,16 @@
       <div id="lantmannen" class="image" data-aos="fade"></div>
     </section>
     <section id="portraits-section">
-      <h2 class="right">Portraits</h2>
+      <h2 class="right" data-bottom-top="transform: translateY(-30px);" data-top-bottom="transform: translateY(150px)">
+        Portraits
+      </h2>
       <div id="emilavatar" class="image" data-aos="fade-up"></div>
-      <div id="liavatar" class="image" data-aos="fade-up"></div>
+      <div id="liavatar" class="image" data-aos="fade-up" data-bottom-top="top: 20em;" data-top-bottom="top: 5em;"></div>
     </section>
     <section id="skyline-section">
-      <h2>Stockholm Skyline</h2>
+      <h2 data-bottom-top="transform: translateY(-30px);" data-top-bottom="transform: translateY(40px)">
+        Stockholm Skyline
+      </h2>
       <div id="stockholm" class="image" data-aos="fade-up"></div>
     </section>
   </main>
