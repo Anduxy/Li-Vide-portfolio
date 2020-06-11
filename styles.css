@@ -193,6 +193,7 @@ section#hope-section2 {
   padding: 0 1em;
   font-family: 'Bungee Hairline', cursive;
   font-weight: bold;
+  text-align: center;
 }
 
 #about-section3 {
@@ -335,6 +336,12 @@ section#hope-section2 {
     height: 3.8em;
   }
 
+  .header-container, section {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   main h3 {
     font-size: 1.4em;
   }
@@ -440,5 +447,35 @@ section#hope-section2 {
     top: 24em;
     height: 26em;
     transform: translateX(14em);
+  }
+
+  #about-section1 {
+    height: 51em;
+  }
+
+  #about-portrait {
+    top: 3em;
+    right: calc(50% + 2em);
+    left: unset;
+    width: 32em;
+    height: 42em;
+  }
+
+  #about-description {
+    width: 29em;
+    font-size: 1.15em;
+  }
+
+  #about-section3 {
+    height: 120em;
+    padding: 5em 0 2em;
+  }
+
+  #about-timeline {
+    height: 100%;
+    position: unset;
+    top: unset;
+    left: unset;
+    right: unset;
   }
 }
