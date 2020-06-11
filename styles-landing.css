@@ -207,8 +207,9 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 
   #allin-container1 {
     top: 16em;
-    width: 18.4em;
+    left: unset;
     right: calc(50% + 19em);
+    width: 18.4em;
     height: 32em;
   }
 
@@ -242,6 +243,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 
   #lantmannen {
     height: 44em;
+    z-index: -1;
   }
 
   #lantmannen-section {
