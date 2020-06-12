@@ -122,6 +122,8 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 
 #hope-teasersection video {
   top: 20em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #hope-container {
