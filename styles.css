@@ -143,6 +143,7 @@ section#hope-section2 {
 
 .image {
   background-position: center;
+  background-position-y: top;
   background-repeat: no-repeat;
   background-size: contain;
   padding: 1.4em;
@@ -162,11 +163,9 @@ section#hope-section2 {
 }
 
 #about-description {
-  position: absolute;
   padding: 1em;
-  left: 50%;
-  width: 20em;
-  top: 2em;
+  margin-left: 50%;
+  max-width: 20em;
 }
 
 #ripple-section1 {
@@ -186,11 +185,11 @@ section#hope-section2 {
 }
 
 #about-section1 {
-  height: 60em;
+  padding: 2em 0 4em;
 }
 
 #about-section2 {
-  padding: 0 1em;
+  font-size: 0.9em;
   font-family: 'Bungee Hairline', cursive;
   font-weight: bold;
   text-align: center;
@@ -324,8 +323,8 @@ section#hope-section2 {
   background-image: url("img/about/Timeline.jpg");
   position: absolute;
   top: 5em;
-  left: -4em;
-  right: -4em;
+  left: -2em;
+  right: -2em;
   height: 72em;
 }
 
@@ -449,10 +448,6 @@ section#hope-section2 {
     transform: translateX(14em);
   }
 
-  #about-section1 {
-    height: 51em;
-  }
-
   #about-portrait {
     top: 3em;
     right: calc(50% + 2em);
@@ -462,8 +457,12 @@ section#hope-section2 {
   }
 
   #about-description {
-    width: 29em;
-    font-size: 1.15em;
+    font-size: 1.2em;
+    max-width: 29em;
+  }
+
+  #about-section2 {
+    font-size: 1.1em;
   }
 
   #about-section3 {
