@@ -184,12 +184,20 @@ section#hope-section2 {
   height: 146em;
 }
 
+#allin-section2 {
+  height: 106em;
+}
+
 #hope-section1 {
   height: 106em;
 }
 
 #hope-section1 #description {
   top: 26em;
+}
+
+#hope-section3 {
+  height: 50em;
 }
 
 #about-section1 {
