@@ -100,6 +100,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 
 #allin-teaser1 {
   background-image: url("img/landing/allin_appreciation.png");
+  background-position-y: center;
 }
 
 #allin-container2 {
@@ -176,6 +177,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 
 #stockholm {
   background-image: url("img/landing/SthlmSkyline_grey-03.png");
+  background-position-y: bottom;
   position: absolute;
   top: 6em;
   left: 0;

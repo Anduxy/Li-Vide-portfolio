@@ -136,6 +136,10 @@ section {
   position: relative;
 }
 
+video {
+  max-width: 100%;
+}
+
 section#hope-section2 {
   text-align: center;
   overflow-x: hidden;
@@ -170,6 +174,10 @@ section#hope-section2 {
 
 #ripple-section1 {
   height: 124em;
+}
+
+#ripple-section2 {
+  height: 120em;
 }
 
 #allin-section1 {

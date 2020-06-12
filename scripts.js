@@ -3,6 +3,6 @@ AOS.init();
 
 // Initialize skrollr on non-touch devices only
 var touchDevice = 'ontouchstart' in window;
-if (!touchDevice) {
+if (!touchDevice && skrollr) {
     var s = skrollr.init({forceHeight: false});
 }
