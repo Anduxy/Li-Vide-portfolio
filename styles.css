@@ -360,7 +360,7 @@ section#hope-section2 {
   video {
     position: absolute;
     top: 0;
-    left: 50vw;
+    left: 50%;
     width: 36em;
   }
 
@@ -391,7 +391,7 @@ section#hope-section2 {
   }
 
   #hope-section2 {
-    height: 64em;
+    height: 70em;
   }
 
   #hope-section3 {
