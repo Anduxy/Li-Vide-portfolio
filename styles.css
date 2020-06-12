@@ -364,28 +364,38 @@ section#hope-section2 {
     width: 36em;
   }
 
-  .description {
+  #description {
+    left: unset;
+    right: calc(50% - 8em);
     width: 44em;
-    top: 12em;
-    left: 50%;
-    padding: 2em;
-    transform: translateX(-34.5em);
   }
 
   #ripple-section1 {
     height: 86em;
   }
 
+  #ripple-section2 {
+    height: 184em;
+  }
+
   #allin-section1 {
     height: 104em;
   }
 
+  #allin-section2 {
+    height: 168em;
+  }
+
   #hope-section1 {
-    height: 80em;
+    height: 90em;
   }
 
   #hope-section2 {
     height: 64em;
+  }
+
+  #hope-section3 {
+    height: 50em;
   }
 
   #ripple-img1 {
@@ -430,12 +440,18 @@ section#hope-section2 {
 
   #allin-img4 {
     top: 90em;
-    height: 50em;
+    height: 62em;
+    left: unset;
+    right: calc(50% + 1em);
+    width: 36em;
   }
 
   #allin-img5 {
-    top: 140em;
-    height: 50em;
+    top: 128em;
+    height: 32em;
+    left: calc(50% + 1em);
+    right: unset;
+    width: 37em;
   }
 
   #hope-img1 {
