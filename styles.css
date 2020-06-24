@@ -344,6 +344,18 @@ section#hope-section2 {
   height: 72em;
 }
 
+.moderna main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.moderna footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 @media only screen and (min-width: 768px) {
   .work h1, .about h1 {
     font-size: 5em;
