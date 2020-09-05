@@ -33,12 +33,20 @@ nav a.close-nav:hover {
 }
 
 footer {
-    font-size: 1.4rem;
-    padding: 2rem;
-    height: 6rem;
-    position: relative;
-    background: rgb(244, 204, 204);
+  font-size: 1.4rem;
+  padding: 2rem;
+  height: 19rem;
+  position: relative;
+  background: #afbccd;
+  color: white;
   text-align: center;
+}
+
+footer p {
+  text-align: left;
+  max-width: 16em;
+  margin-bottom: 2em;
+  font-size: 0.9em;
 }
 
 footer #hello {
@@ -70,7 +78,7 @@ a.close-nav svg {
 header {
   overflow: hidden;
   text-align: center;
-  background: rgb(244, 204, 204);
+  background: #bf708d;
 }
 
 header h1 {
@@ -86,18 +94,10 @@ header h1 {
   padding-right: 3em;
 }
 
-.about header {
-  text-align: left;
-}
-
-.work h1, .about h1 {
+.work h1 {
   font-size: 4em;
   padding: 3em 0 0;
   height: 4em;
-}
-
-.about h1 {
-  padding-left: 1em;
 }
 
 .triangular {
@@ -120,12 +120,6 @@ main h3 {
   margin: 0;
   background-color: rgb(244, 204, 204);
   display: inline;
-}
-
-.about h3 {
-  background-color: rgb(226, 226, 256);
-  margin-bottom: 1em;
-  display: block;
 }
 
 main p {
@@ -166,12 +160,6 @@ section#hope-section2 {
   margin-left: 8em;
 }
 
-#about-description {
-  padding: 1em;
-  margin-left: 50%;
-  max-width: 20em;
-}
-
 #ripple-section1 {
   height: 124em;
 }
@@ -198,22 +186,6 @@ section#hope-section2 {
 
 #hope-section3 {
   height: 50em;
-}
-
-#about-section1 {
-  padding: 2em 0 4em;
-}
-
-#about-section2 {
-  font-size: 0.9em;
-  font-family: 'Bungee Hairline', cursive;
-  font-weight: bold;
-  text-align: center;
-}
-
-#about-section3 {
-  overflow: hidden;
-  height: 78em;
 }
 
 #ripple-img1 {
@@ -326,31 +298,13 @@ section#hope-section2 {
   height: 26em;
 }
 
-#about-portrait {
-  background-image: url(img/about/Li_Portrait.png);
-  position: absolute;
-  top: 3em;
-  left: 1em;
-  right: 50%;
-  height: 26em;
-}
-
-#about-timeline {
-  background-image: url("img/about/Timeline.jpg");
-  position: absolute;
-  top: 5em;
-  left: -2em;
-  right: -2em;
-  height: 72em;
-}
-
 .moderna main {
     max-width: 1200px;
     margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
-  .work h1, .about h1 {
+  .work h1 {
     font-size: 5em;
     padding-top: 2.8em;
     height: 3.8em;
@@ -483,35 +437,5 @@ section#hope-section2 {
     top: 24em;
     height: 26em;
     transform: translateX(14em);
-  }
-
-  #about-portrait {
-    top: 3em;
-    right: calc(50% + 2em);
-    left: unset;
-    width: 32em;
-    height: 42em;
-  }
-
-  #about-description {
-    font-size: 1.2em;
-    max-width: 29em;
-  }
-
-  #about-section2 {
-    font-size: 1.1em;
-  }
-
-  #about-section3 {
-    height: 120em;
-    padding: 5em 0 2em;
-  }
-
-  #about-timeline {
-    height: 100%;
-    position: unset;
-    top: unset;
-    left: unset;
-    right: unset;
   }
 }
