@@ -90,14 +90,18 @@ header h1 {
 }
 
 .work header {
-  text-align: right;
-  padding-right: 3em;
+  text-align: left;
+  padding-left: 3em;
 }
 
 .work h1 {
   font-size: 4em;
   padding: 3em 0 0;
   height: 4em;
+}
+
+.work h2, .work h3, .work p {
+  font-family: 'Fira Sans';
 }
 
 .triangular {
@@ -305,9 +309,10 @@ section#hope-section2 {
 
 @media only screen and (min-width: 768px) {
   .work h1 {
-    font-size: 5em;
-    padding-top: 2.8em;
-    height: 3.8em;
+    font-size: 7em;
+    padding-top: 1em;
+    height: 3em;
+    margin: 0;
   }
 
   .header-container, section {
