@@ -1,0 +1,103 @@
+li {
+  font-size: 0.9rem;
+  font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  padding-left: 1em;
+  margin: 0 1em 1em;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+blockquote em {
+  background: #f1a5c1;
+}
+
+.work header {
+  text-align: left;
+  padding-left: 3em;
+}
+
+.work main {
+  padding-top: 3rem;
+}
+
+.work img {
+  width: 100%;
+}
+
+.work .row {
+  padding-top: 2rem;
+}
+
+.work h1 {
+  font-size: 4em;
+  padding: 2.4em 0 0.6em;
+  height: 4em;
+}
+
+.work h2 {
+  font-family: 'Tenor Sans', Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 1em;
+}
+
+.work main p {
+  font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.work footer {
+  margin-top: 10rem;
+}
+
+video {
+  max-width: 100%;
+}
+
+.extra-margin {
+  margin-top: 2.4em;
+  margin-bottom: 2.4em;
+}
+
+@media only screen and (min-width: 768px) {
+  main.container {
+    max-width: 720px;
+  }
+
+  main.container {
+    padding-left: unset;
+    padding-right: unset;
+  }
+
+  li {
+    font-size: 1.1rem;
+  }
+
+  .side-margins {
+    margin-left: 4.8em;
+    margin-right: 8.8em;
+  }
+
+  main blockquote {
+    margin-left: 12em;
+    margin-right: 16em;
+  }
+
+  .work h1 {
+    font-size: 7em;
+    padding-top: 1.6em;
+    margin: 0;
+    height: unset;
+  }
+
+  .work h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.4em;
+  }
+  
+  .work main p {
+    font-size: 1.4rem;
+  }
+}

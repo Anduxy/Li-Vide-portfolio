@@ -5,13 +5,13 @@
   right: 0;
   bottom: 12vh;
   color: white;
+  font-size: 2.2em;
 	-webkit-animation: bounce-bottom 10s ease-in 1s backwards;
 	        animation: bounce-bottom 10s ease-in 1s backwards;
 }
 
 .scroll-please em {
   font-style: normal;
-  font-size: 2.2em;
 }
 
 .scroll-please .vertical-line {
@@ -43,20 +43,18 @@ h2.right {
   padding-right: 1em;
 }
 
-nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
-  display: none; /* work in progress */
-  color: #bf708d;
-  font-weight: bold;
-  padding: 0.4em;
-  right: 2em;
-}
-
-.home .image {
+.image {
+  background-position: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 1.4em;
   width: 100%;
   height: 100%;
 }
 
-.mask {
+.view.overlay .mask {
+  transition: all .2s ease-in-out;
   cursor: pointer;
 }
 
