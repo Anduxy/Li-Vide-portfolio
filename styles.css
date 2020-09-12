@@ -33,9 +33,9 @@ nav a.close-nav:hover {
 }
 
 footer {
-  font-size: 1.4rem;
+  font-size: 1rem;
   padding: 2rem;
-  height: 19rem;
+  height: 16rem;
   position: relative;
   background: #afbccd;
   color: white;
@@ -46,7 +46,6 @@ footer p {
   text-align: left;
   max-width: 16em;
   margin-bottom: 2em;
-  font-size: 0.9em;
 }
 
 footer #hello {
@@ -61,9 +60,10 @@ footer > a {
   text-decoration: underline;
 }
 
-address {
+footer > address {
   float: right;
-  font-size: 1.2em;
+  font-size: 2em;
+  margin: -0.5em 0 0;
 }
 
 address a + a {
@@ -151,6 +151,10 @@ section#hope-section2 {
   padding: 1.4em;
 }
 
+.view.overlay .mask {
+  transition: all .2s ease-in-out;
+}
+
 #description {
   background-color: rgb(243, 243, 243);
   position: absolute;
@@ -193,7 +197,7 @@ section#hope-section2 {
 }
 
 #ripple-img1 {
-  background-image: url("img/ripple/Studio_Ripple_logo-01.png");
+  background-image: url("img/ripple/ripple_1.png");
   position: absolute;
   top: -2em;
   right: 4em;
@@ -202,7 +206,7 @@ section#hope-section2 {
 }
 
 #ripple-img2 {
-  background-image: url("img/ripple/studio_ripple_colors_960x640-02.jpg");
+  background-image: url("img/ripple/ripple_2.png");
   position: absolute;
   z-index: -1;
   top: 0;
@@ -212,7 +216,7 @@ section#hope-section2 {
 }
 
 #ripple-img3 {
-  background-image: url("img/ripple/studio_ripple_font.png");
+  background-image: url("img/ripple/ripple_3.png");
   position: absolute;
   top: 22em;
   left: 4em;
@@ -221,7 +225,7 @@ section#hope-section2 {
 }
 
 #ripple-img4 {
-  background-image: url("img/ripple/studio_ripple_logo-bottom-a.png");
+  background-image: url("img/ripple/ripple_4.png");
   position: absolute;
   top: 42em;
   left: 2em;
@@ -230,7 +234,7 @@ section#hope-section2 {
 }
 
 #ripple-img5 {
-  background-image: url("img/ripple/studio_ripple_logo-bottom-b.png");
+  background-image: url("img/ripple/ripple_5.png");
   position: absolute;
   top: 78.4em;
   left: 2em;
@@ -239,8 +243,8 @@ section#hope-section2 {
   margin-bottom: 4em;
 }
 
-#allin-img2 {
-  background-image: url("img/allin/allin_stages_timeline.png");
+#allin-img1 {
+  background-image: url("img/allin/allin_1.png");
   position: absolute;
   top: 0;
   left: 1em;
@@ -248,8 +252,26 @@ section#hope-section2 {
   height: 28em;
 }
 
-#allin-img3 {
-  background-image: url("img/allin/allin_stage_prototypes.png");
+#allin-img2 {
+  background-image: url("img/allin/allin_2.png");
+  position: absolute;
+  top: 0;
+  left: 1em;
+  right: 1em;
+  height: 28em;
+}
+
+#allin-img3a {
+  background-image: url("img/allin/allin_3a.jpg");
+  position: absolute;
+  top: 24em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
+}
+
+#allin-img3b {
+  background-image: url("img/allin/allin_3b.jpg");
   position: absolute;
   top: 24em;
   left: 1em;
@@ -258,7 +280,7 @@ section#hope-section2 {
 }
 
 #allin-img4 {
-  background-image: url("img/allin/allin_mlp_prototype.png");
+  background-image: url("img/allin/allin_4.jpg");
   position: absolute;
   top: 48em;
   left: 1em;
@@ -267,7 +289,52 @@ section#hope-section2 {
 }
 
 #allin-img5 {
-  background-image: url("img/allin/allin_key.png");
+  background-image: url("img/allin/allin_5.png");
+  position: absolute;
+  top: 76em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
+}
+
+#allin-img6 {
+  background-image: url("img/allin/allin_6.jpg");
+  position: absolute;
+  top: 76em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
+}
+
+#allin-img7a {
+  background-image: url("img/allin/allin_7a.png");
+  position: absolute;
+  top: 24em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
+}
+
+#allin-img7b {
+  background-image: url("img/allin/allin_7b.png");
+  position: absolute;
+  top: 24em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
+}
+
+#allin-img8 {
+  background-image: url("img/allin/allin_8.jpg");
+  position: absolute;
+  top: 76em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
+}
+
+#allin-img9 {
+  background-image: url("img/allin/allin_9.png");
   position: absolute;
   top: 76em;
   left: 1em;
@@ -276,7 +343,7 @@ section#hope-section2 {
 }
 
 #hope-img1 {
-  background-image: url("img/hope/hope_renewyourself.png");
+  background-image: url("img/hope/hope_1.png");
   position: absolute;
   top: 0;
   left: 1em;
@@ -285,7 +352,7 @@ section#hope-section2 {
 }
 
 #hope-img2 {
-  background-image: url("img/hope/Hope_UserJourney_960x640-03.jpg");
+  background-image: url("img/hope/hope_2.jpg");
   position: absolute;
   top: 0;
   left: 1em;
@@ -294,7 +361,7 @@ section#hope-section2 {
 }
 
 #hope-img3 {
-  background-image: url("img/hope/Hope_futureretail_960x640-01.jpg");
+  background-image: url("img/hope/hope_3.jpg");
   position: absolute;
   top: 24em;
   left: 1em;
@@ -302,9 +369,22 @@ section#hope-section2 {
   height: 26em;
 }
 
-.moderna main {
-    max-width: 1200px;
-    margin: auto;
+#hope-img4 {
+  background-image: url("img/hope/hope_4.jpg");
+  position: absolute;
+  top: 24em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
+}
+
+#hope-img5 {
+  background-image: url("img/hope/hope_5.jpg");
+  position: absolute;
+  top: 24em;
+  left: 1em;
+  right: 1em;
+  height: 26em;
 }
 
 @media only screen and (min-width: 768px) {

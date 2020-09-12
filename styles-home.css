@@ -49,7 +49,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   right: 2em;
 }
 
-.landing .image {
+.home .image {
   width: 100%;
   height: 100%;
 }
@@ -80,7 +80,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #about-portrait {
-  background-image: url(img/livide.jpg);
+  background-image: url("img/home/livide.jpg");
   position: absolute;
   top: 1em;
   right: 1em;
@@ -103,7 +103,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #hope-teaser {
-  background-image: url("img/landing/hope_futureofretail.png");
+  background-image: url("img/home/hope_futureofretail.png");
 }
 
 #allin-teasersection {
@@ -120,7 +120,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #allin-teaser {
-  background-image: url("img/landing/allin_stages.png");
+  background-image: url("img/home/allin_stages.png");
 }
 
 #ripple-teasersection {
@@ -137,7 +137,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #ripple-teaser1 {
-  background-image: url("img/landing/Studio_Ripple_logo-01.png");
+  background-image: url("img/home/studio_ripple_logo.png");
 }
 
 #ripple-container2 {
@@ -150,10 +150,6 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 
 #ripple-container2 .mask {
   left: 7em;
-}
-
-#ripple-teaser2 {
-  background-image: url("img/landing/StudioRipple_logo-02.png");
 }
 
 @media only screen and (min-width: 768px) {
