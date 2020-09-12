@@ -37,34 +37,38 @@ main h2 {
   padding-left: 1em;
 }
 
-h2.logo {
-  font-size: 2em;
-  color: #bf708d;
-}
-
 h2.right {
   text-align: right;
   padding-right: 1em;
 }
 
-.image {
-  background-position: center;
-  background-position-y: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 1.4em;
-  width: 100%;
-  height: 100%;
-}
-
-.view.overlay .mask {
-  transition: none;
-  cursor: pointer;
+#about-section, #hope-teasersection, #allin-teasersection, #ripple-teasersection {
+  height: 36vh;
+  overflow: initial;
 }
 
 #about-section {
   height: 48em;
-  overflow: initial;
+}
+
+#ripple-teasersection {
+  height: 100vw;
+}
+
+#hope-teaser, #allin-teaser, #ripple-teaser {
+  position: absolute;
+  width: calc(75% - 2rem);
+  left: 2rem;
+}
+
+#allin-teaser {
+  left: auto;
+  right: 2rem;
+}
+
+#ripple-teaser {
+  width: 44vw;
+  left: 12vw;
 }
 
 #about-description-background {
@@ -93,10 +97,9 @@ h2.right {
 }
 
 #about-logo {
-  background-image: url("img/home/livide_logo.png");
   position: absolute;
   top: 2em;
-  left: 2em;
+  left: 2rem;
   height: 6em;
   width: auto;
 }
@@ -111,70 +114,7 @@ h2.right {
   width: auto;
 }
 
-#hope-teasersection {
-  height: 30em;
-  overflow: initial;
-}
-
-#hope-container {
-  position: absolute;
-  top: 4em;
-  left: 0;
-  right: 0;
-  height: 24em;
-}
-
-#hope-teaser {
-  background-image: url("img/home/hope_futureofretail.png");
-}
-
-#allin-teasersection {
-  height: 30em;
-  overflow: initial;
-}
-
-#allin-container {
-  position: absolute;
-  top: 5em;
-  left: 2em;
-  right: 2em;
-  height: 22em;
-}
-
-#allin-teaser {
-  background-image: url("img/home/allin_stages.png");
-}
-
-#ripple-teasersection {
-  height: 44em;
-  overflow: initial;
-}
-
-#ripple-container1 {
-  position: absolute;
-  top: 5em;
-  left: 2em;
-  right: 50%;
-  height: 25em;
-}
-
-#ripple-teaser1 {
-  background-image: url("img/home/studio_ripple_logo.png");
-}
-
-#ripple-container2 {
-  position: absolute;
-  top: 20em;
-  right: 2em;
-  left: 33%;
-  height: 25em;
-}
-
-#ripple-container2 .mask {
-  left: 7em;
-}
-
-@media only screen and (min-width: 768px) {
+@media only screen and (hover: hover) and (min-width: 768px) {
   h1 {
     -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -183,10 +123,6 @@ h2.right {
   main h2 {
     font-size: 6em;
     padding: 0 0.5em;
-  }
-
-  .view.overlay .mask {
-    transition: all .2s ease-in-out;
   }
 
   #about-section {
@@ -235,7 +171,7 @@ h2.right {
   }
 
   #hope-teasersection {
-    height: 88em;
+    height: 72em;
   }
 
   #allin-container {
@@ -264,6 +200,11 @@ h2.right {
 
   #ripple-teasersection {
     height: 92em;
+  }
+
+  #ripple-teaser {
+    width: calc(50% - 4rem);
+    left: 4rem;
   }
 
   @-webkit-keyframes tracking-in-expand {
