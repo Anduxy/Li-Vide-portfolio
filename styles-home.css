@@ -54,7 +54,7 @@ h2.right {
 }
 
 .view.overlay .mask {
-  transition: all .2s ease-in-out;
+  transition: none;
   cursor: pointer;
 }
 
@@ -179,6 +179,10 @@ h2.right {
   main h2 {
     font-size: 6em;
     padding: 0 0.5em;
+  }
+
+  .view.overlay .mask {
+    transition: all .2s ease-in-out;
   }
 
   #about-section {
