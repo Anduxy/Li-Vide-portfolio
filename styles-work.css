@@ -17,6 +17,7 @@ blockquote em {
 .work header {
   text-align: left;
   padding-left: 3em;
+  background: #7a8aa1;
 }
 
 .work main {
@@ -24,6 +25,7 @@ blockquote em {
 }
 
 .work img {
+  max-width: 100%;
   width: 100%;
   height: auto;
 }

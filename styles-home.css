@@ -21,6 +21,10 @@
   padding: 12vh 1px;
 }
 
+header {
+  background: #bf708d;
+}
+
 section {
   position: relative;
 }
