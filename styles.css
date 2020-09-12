@@ -54,15 +54,10 @@ address a + a {
   margin-left: 0.5em;
 }
 
-a.close-nav svg {
-  height: 2em;
-  fill: white;
-}
-
 header {
   overflow: hidden;
   text-align: center;
-  background: #bf708d;
+  background: #7a8aa1;
 }
 
 header h1 {
@@ -73,49 +68,59 @@ header h1 {
   height: 100vh;
 }
 
-.work header {
-  text-align: left;
+main.container {
   padding-left: 3em;
-}
-
-.work h1 {
-  font-size: 4em;
-  padding: 3em 0 0;
-  height: 4em;
-}
-
-.work h2, .work h3, .work p {
-  font-family: 'Fira Sans';
-}
-
-.triangular {
-  width: 0;
-  height: 0;
-  border-bottom: 8em solid white;
-  border-left: 125em solid transparent;
-  border-left: 100vw solid transparent;
-}
-
-.triangular.mirrored {
-  border-left: none;
-  border-right: 125em solid transparent;
-  border-right: 100vw solid transparent;
-}
-
-main h3 {
-  font-size: 1.4em;
-  font-weight: 300;
-  margin: 0;
-  background-color: rgb(244, 204, 204);
-  display: inline;
+  padding-right: 3em;
 }
 
 main p {
   font-size: 1.4em;
 }
 
-section {
-  position: relative;
+li {
+  font-size: 0.9rem;
+  font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  padding-left: 1em;
+  margin: 0 1em 1em;
+}
+
+.work header {
+  text-align: left;
+  padding-left: 3em;
+}
+
+.work main {
+  padding-top: 3rem;
+}
+
+.work img {
+  width: 100%;
+}
+
+.work .row {
+  padding-top: 2rem;
+}
+
+.work h1 {
+  font-size: 4em;
+  padding: 2.4em 0 0.6em;
+  height: 4em;
+}
+
+.work h2 {
+  font-family: 'Tenor Sans', Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 1em;
+}
+
+.work main p {
+  font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.work footer {
+  margin-top: 10rem;
 }
 
 video {
@@ -125,6 +130,11 @@ video {
 section#hope-section2 {
   text-align: center;
   overflow-x: hidden;
+}
+
+.extra-margin {
+  margin-top: 2.4em;
+  margin-bottom: 2.4em;
 }
 
 .image {
@@ -326,84 +336,45 @@ section#hope-section2 {
   height: 26em;
 }
 
-#hope-img1 {
-  background-image: url("img/hope/hope_1.png");
-  position: absolute;
-  top: 0;
-  left: 1em;
-  right: 1em;
-  height: 28em;
-}
-
-#hope-img2 {
-  background-image: url("img/hope/hope_2.jpg");
-  position: absolute;
-  top: 0;
-  left: 1em;
-  right: 1em;
-  height: 28em;
-}
-
-#hope-img3 {
-  background-image: url("img/hope/hope_3.jpg");
-  position: absolute;
-  top: 24em;
-  left: 1em;
-  right: 1em;
-  height: 26em;
-}
-
-#hope-img4 {
-  background-image: url("img/hope/hope_4.jpg");
-  position: absolute;
-  top: 24em;
-  left: 1em;
-  right: 1em;
-  height: 26em;
-}
-
-#hope-img5 {
-  background-image: url("img/hope/hope_5.jpg");
-  position: absolute;
-  top: 24em;
-  left: 1em;
-  right: 1em;
-  height: 26em;
-}
-
 @media only screen and (min-width: 768px) {
+  main.container {
+    max-width: 720px;
+  }
+
+  main.container {
+    padding-left: unset;
+    padding-right: unset;
+  }
+
+  li {
+    font-size: 1.1rem;
+  }
+
+  .side-margins {
+    margin-left: 4.8em;
+    margin-right: 8.8em;
+  }
+
   .work h1 {
     font-size: 7em;
-    padding-top: 1em;
-    height: 3em;
+    padding-top: 1.6em;
     margin: 0;
+    height: unset;
+  }
+
+  .work h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.4em;
+  }
+  
+  .work main p {
+    font-size: 1.4rem;
   }
 
   .header-container, section {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  main h3 {
-    font-size: 1.4em;
-  }
-
-  main p {
-    font-size: 1.4em;
-  }
-
-  video {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 36em;
-  }
-
-  #description {
-    left: unset;
-    right: calc(50% - 8em);
-    width: 44em;
   }
 
   #ripple-section1 {
@@ -420,18 +391,6 @@ section#hope-section2 {
 
   #allin-section2 {
     height: 168em;
-  }
-
-  #hope-section1 {
-    height: 90em;
-  }
-
-  #hope-section2 {
-    height: 70em;
-  }
-
-  #hope-section3 {
-    height: 50em;
   }
 
   #ripple-img1 {
@@ -488,23 +447,5 @@ section#hope-section2 {
     left: calc(50% + 1em);
     right: unset;
     width: 37em;
-  }
-
-  #hope-img1 {
-    width: 33em;
-    height: 44em;
-    left: 50%;
-    top: 2em;
-  }
-
-  #hope-img2 {
-    height: 34em;
-    transform: translateX(-10em);
-  }
-
-  #hope-img3 {
-    top: 24em;
-    height: 26em;
-    transform: translateX(14em);
   }
 }

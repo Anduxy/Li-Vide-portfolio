@@ -21,9 +21,8 @@
   padding: 12vh 1px;
 }
 
-h1 {
-  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+section {
+  position: relative;
 }
 
 main h2 {
@@ -68,26 +67,34 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 
 #about-description-background {
   background-color: #7a8aa1;
-  top: 10em;
-  right: calc(50% - 8em);
+  top: 12em;
+  right: calc(50% - 9em);
   left: auto;
   position: absolute;
-  max-width: 24em;
+  max-width: 30em;
   padding: 0 8em 0 0;
+  font-size: 0.8em;
 }
 
 #about-description {
   color: white;
   text-align: right;
-  padding: 1em;
-  max-width: 25em;
+  padding: 1.4em 2.8em;
+}
+
+#about-description p {
+  margin: 0;
+}
+
+#about-description p + p {
+  margin-top: 1rem;
 }
 
 #about-logo {
   background-image: url("img/home/livide_logo.png");
   position: absolute;
-  top: 1em;
-  left: 1em;
+  top: 2em;
+  left: 2em;
   height: 6em;
   width: auto;
 }
@@ -95,8 +102,8 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 #about-portrait {
   background-image: url("img/home/livide.jpg");
   position: absolute;
-  top: 6em;
-  right: 1em;
+  top: 7em;
+  right: 2em;
   left: 50%;
   height: 26em;
   width: auto;
@@ -166,6 +173,11 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 @media only screen and (min-width: 768px) {
+  h1 {
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+
   main h2 {
     font-size: 6em;
     padding: 0 0.5em;
@@ -177,21 +189,23 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   }
 
   #about-logo {
-    height: 10em;
+    top: 4em;
+    height: 8em;
   }
 
   #about-description-background {
     right: calc(50% - 16em);
     top: 14em;
     max-width: 50em;
-    padding: 2em 15em 4em 10em;
+    padding: 3em 15em 3em 10em;
+    font-size: 1em;
   }
 
   #about-description {
     color: white;
     text-align: right;
     padding: 1em;
-    max-width: 25em;
+    font-size: 1em;
   }
 
   #about-portrait {
@@ -245,6 +259,31 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   #ripple-teasersection {
     height: 92em;
   }
+
+  @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }
 
 /* ----------------------------------------------
@@ -253,12 +292,6 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
  * See http://animista.net/license for more info. 
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation bounce-bottom
- * ----------------------------------------
- */
  @-webkit-keyframes bounce-bottom {
   0% {
     -webkit-transform: translateY(45px);
@@ -360,36 +393,6 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
             transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
-    opacity: 1;
-  }
-}
-
-/**
- * ----------------------------------------
- * animation tracking-in-expand
- * ----------------------------------------
- */
-@-webkit-keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
     opacity: 1;
   }
 }
