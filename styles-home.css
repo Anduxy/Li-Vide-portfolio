@@ -59,12 +59,13 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
 }
 
 #about-section {
-  height: 40em;
+  height: 48em;
   overflow: initial;
 }
 
 #about-description-background {
   background-color: #7a8aa1;
+  top: 10em;
   right: calc(50% - 8em);
   left: auto;
   position: absolute;
@@ -79,10 +80,19 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   max-width: 25em;
 }
 
+#about-logo {
+  background-image: url("img/home/livide_logo.png");
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  height: 6em;
+  width: auto;
+}
+
 #about-portrait {
   background-image: url("img/home/livide.jpg");
   position: absolute;
-  top: 1em;
+  top: 6em;
   right: 1em;
   left: 50%;
   height: 26em;
@@ -159,15 +169,17 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   }
 
   #about-section {
-    height: 46em;
+    height: 60em;
     padding: 2em 0 4em;
   }
 
+  #about-logo {
+    height: 10em;
+  }
+
   #about-description-background {
-    background-color: #7a8aa1;
     right: calc(50% - 16em);
-    left: auto;
-    position: absolute;
+    top: 14em;
     max-width: 50em;
     padding: 2em 15em 4em 10em;
   }
@@ -180,7 +192,7 @@ nav a.about-nav, nav a.about-nav:link, nav a.about-nav:visited {
   }
 
   #about-portrait {
-    top: 5em;
+    top: 10em;
     left: calc(50% + 2em);
     right: unset;
     width: 32em;
