@@ -25,6 +25,7 @@ blockquote em {
 
 .work img {
   width: 100%;
+  height: auto;
 }
 
 .work .row {
