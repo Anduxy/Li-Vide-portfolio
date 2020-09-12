@@ -183,6 +183,11 @@ h2.right {
 
   .view.overlay .mask {
     transition: all .2s ease-in-out;
+    opacity: unset;
+  }
+
+  .view.overlay .mask:hover {
+    opacity: unset;
   }
 
   #about-section {
