@@ -48,6 +48,7 @@ h2.right {
 }
 
 #about-section {
+  margin-top: 6em;
   height: 48em;
 }
 
@@ -98,9 +99,9 @@ h2.right {
 
 #about-logo {
   position: absolute;
-  top: 2em;
+  top: 0;
   left: 2rem;
-  height: 6em;
+  height: 4em;
   width: auto;
 }
 
@@ -132,7 +133,7 @@ h2.right {
 
   #about-logo {
     top: 4em;
-    height: 8em;
+    height: 6em;
   }
 
   #about-description-background {
