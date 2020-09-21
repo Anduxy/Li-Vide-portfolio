@@ -10,6 +10,10 @@ html > body {
   font-size: 62.5%;
 }
 
+html a:hover {
+  text-decoration: none;
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
   html, html > body {
     scroll-behavior: auto;
@@ -20,6 +24,9 @@ img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  transition-property: opacity;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
 }
 
 footer {
@@ -87,5 +94,9 @@ main p {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  img:hover {
+    opacity: 0.5;
   }
 }
